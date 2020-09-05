@@ -1,0 +1,5130 @@
+Model {
+  Name			  "BCM_C1A_CombiSwitch_9"
+  Version		  9.2
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    10
+    Inport {
+      Name		      "In1"
+      BusObject		      ""
+      OutputFunctionCall      "off"
+      SampleTime	      "-1"
+      UnitExpr		      "inherit"
+    }
+    Inport {
+      Name		      "In2"
+      BusObject		      ""
+      OutputFunctionCall      "off"
+      SampleTime	      "-1"
+      UnitExpr		      "inherit"
+    }
+    Inport {
+      Name		      "In3"
+      BusObject		      ""
+      OutputFunctionCall      "off"
+      SampleTime	      "-1"
+      UnitExpr		      "inherit"
+    }
+    Inport {
+      Name		      "In4"
+      BusObject		      ""
+      OutputFunctionCall      "off"
+      SampleTime	      "-1"
+      UnitExpr		      "inherit"
+    }
+    Inport {
+      Name		      "In5"
+      BusObject		      ""
+      OutputFunctionCall      "off"
+      SampleTime	      "-1"
+      UnitExpr		      "inherit"
+    }
+    Inport {
+      Name		      "In6"
+      BusObject		      ""
+      OutputFunctionCall      "off"
+      SampleTime	      "-1"
+      UnitExpr		      "inherit"
+    }
+    Inport {
+      Name		      "In7"
+      BusObject		      ""
+      OutputFunctionCall      "off"
+      SampleTime	      "-1"
+      UnitExpr		      "inherit"
+    }
+    Inport {
+      Name		      "In8"
+      BusObject		      ""
+      OutputFunctionCall      "off"
+      SampleTime	      "-1"
+      UnitExpr		      "inherit"
+    }
+    Inport {
+      Name		      "In9"
+      BusObject		      ""
+      SignalName	      "IN_DRIVING_CYCLE"
+      OutputFunctionCall      "off"
+      SampleTime	      "-1"
+      UnitExpr		      "inherit"
+    }
+    Inport {
+      Name		      "In10"
+      BusObject		      ""
+      SignalName	      "COMBI_SW_FAILURE_DETECTED_TM"
+      OutputFunctionCall      "off"
+      SampleTime	      "-1"
+      UnitExpr		      "inherit"
+    }
+    NumRootOutports	    3
+    Outport {
+      Name		      "Out1"
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      UnitExpr		      "inherit"
+    }
+    Outport {
+      Name		      "Out2"
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      UnitExpr		      "inherit"
+    }
+    Outport {
+      Name		      "Out3"
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+      UnitExpr		      "inherit"
+    }
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.921"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+    NumProvidedFunctions    0
+    NumRequiredFunctions    0
+    NumResetEvents	    0
+    HasInitializeEvent	    0
+    HasTerminateEvent	    0
+    PreCompExecutionDomainType "Unset"
+    IsExportFunctionModel   0
+    NumParameterArguments   0
+    NumExternalFileReferences 9
+    ExternalFileReference {
+      Reference		      "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+      Path		      "BCM_C1A_CombiSwitch_9/CombiSwitch/CSW_FAILURE_DETECTION/DET_CSW_FAILURE/RSA_DetectChange_v01_04"
+      SID		      "5931"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+      Path		      "BCM_C1A_CombiSwitch_9/CombiSwitch/CSW_FAILURE_DETECTION/DET_CSW_FAILURE/RSA_DetectChange_v01_1"
+      SID		      "5934"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+      Path		      "BCM_C1A_CombiSwitch_9/CombiSwitch/CSW_FAILURE_DETECTION/DET_CSW_FAILURE/RSA_DetectChange_v01_2"
+      SID		      "5935"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+      Path		      "BCM_C1A_CombiSwitch_9/CombiSwitch/CSW_FAILURE_DETECTION/DET_CSW_FAILURE/RSA_DetectChange_v01_3"
+      SID		      "5936"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+      Path		      "BCM_C1A_CombiSwitch_9/CombiSwitch/CSW_FAILURE_DETECTION/DET_CSW_FAILURE/RSA_DetectChange_v01_4"
+      SID		      "5937"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+      Path		      "BCM_C1A_CombiSwitch_9/CombiSwitch/CSW_FAILURE_DETECTION/DET_CSW_FAILURE/RSA_DetectChange_v01_5"
+      SID		      "5938"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+      Path		      "BCM_C1A_CombiSwitch_9/CombiSwitch/CSW_FAILURE_DETECTION/DET_CSW_FAILURE/RSA_DetectChange_v01_6"
+      SID		      "5939"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectIncrease_v01_04"
+      Path		      "BCM_C1A_CombiSwitch_9/CombiSwitch/CSW_FAILURE_DETECTION/DET_CSW_FAILURE/RSA_DetectIncrease_v01_04"
+      SID		      "5932"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "library_BCM/Modeling/Conv_EventToBool"
+      Path		      "BCM_C1A_CombiSwitch_9/CombiSwitch/Conv_EventToBool"
+      SID		      "7213"
+      Type		      "LIBRARY_BLOCK"
+    }
+    OrderedModelArguments   1
+  }
+  DiagnosticSuppressor	  "on"
+  WebScopes_FoundationPlugin "on"
+  NotesPlugin		  "on"
+  LogicAnalyzerPlugin	  "on"
+  SLCCPlugin		  "on"
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  LastSavedArchitecture	  "win64"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-8.0, -8.0, 1376.0, 744.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[1]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[0]
+      }
+      Array {
+	Type			"Simulink.EditorInfo"
+	Dimension		2
+	Object {
+	  $ObjectID		  5
+	  IsActive		  [1]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [998.0, 590.0]
+	  ZoomFactor		  [0.78711484593837533]
+	  Offset		  [-369.85929159252669, -2.8761565836298928]
+	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4382"
+	  Extents		  [998.0, 590.0]
+	  ZoomFactor		  [1.5]
+	  Offset		  [1.4434447103581647, 1006.5493065783015]
+	}
+	PropName		"EditorsInfo"
+      }
+      Object {
+	$PropName		"DockComponentsInfo"
+	$ObjectID		7
+	$ClassName		"Simulink.DockComponentInfo"
+	Type			"GLUE2:PropertyInspector"
+	ID			"Property Inspector"
+	Visible			[0]
+	CreateCallback		""
+	UserData		""
+	Floating		[0]
+	DockPosition		"Right"
+	Width			[640]
+	Height			[480]
+      }
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAACbPwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAAQAAAAmwAAABjAP///wAAAAEAAAAAAAAAAPwCA"
+      "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
+      "QBjAHQAbwByAAAAAAD/////AAAAOQD///8AAASPAAACbAAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
+      "////wEAAAB5/////wAAAAAAAAAA/////wEAAADa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFT/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAMr/////wAAAAAAAAAA/"
+      "////wEAAANa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
+    }
+  }
+  HideAutomaticNames	  on
+  Created		  "Tue Jul 02 16:33:31 2013"
+  Creator		  "a205328"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "40005501"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Wed Sep 02 16:44:36 2020"
+  RTWModifiedTimeStamp	  520965873
+  ModelVersionFormat	  "1.%<AutoIncrement:921>"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  on
+  ShowAllPropagatedSignalLabels	off
+  PortDataTypeDisplayFormat "AliasTypeOnly"
+  ShowEditTimeErrors	  on
+  ShowEditTimeWarnings	  on
+  ShowEditTimeAdvisorChecks off
+  ShowPortUnits		  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  VariantCondition	  off
+  ShowSubsystemDomainSpec off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowVisualizeInsertedRTB on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  BlockVariantConditionDataTip off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  FunctionConnectors	  off
+  BrowserLookUnderMasks	  off
+  MultiThreadCoSim	  on
+  SimulationMode	  "normal"
+  VisualizeLoggedSignalsWhenLoggingToFile off
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  EnablePacing		  off
+  PacingRate		  1
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    8
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "BCM_C1A_CombiSwitch_9"
+    signals_		    []
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "BCM_C1A_CombiSwitch_9"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  OrderedModelArguments	  on
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      9
+      Version		      "1.18.1"
+      DisabledProps	      []
+      Description	      ""
+      Array {
+	Type			"Handle"
+	Dimension		10
+	Simulink.SolverCC {
+	  $ObjectID		  10
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  AutoScaleAbsTol	  on
+	  FixedStep		  "0.01"
+	  InitialStep		  "auto"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  EnableMultiTasking	  off
+	  ConcurrentTasks	  off
+	  Solver		  "FixedStepDiscrete"
+	  SolverName		  "FixedStepDiscrete"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverInfoToggleStatus  off
+	  IsAutoAppliedInSIP	  off
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	  SampleTimeProperty	  []
+	  DecoupledContinuousIntegration off
+	  MinimalZcImpactIntegration off
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  11
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "StructureWithTime"
+	  SignalLoggingSaveFormat "ModelDataLogs"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  StreamToWorkspace	  off
+	  StreamVariableName	  "streamout"
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	  LoggingToFile		  off
+	  DatasetSignalFormat	  "timeseries"
+	  LoggingFileName	  "out.mat"
+	  LoggingIntervals	  "[-inf, inf]"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  12
+	  Version		  "1.18.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  DefaultParameterBehavior "Tunable"
+	  UseDivisionForNetSlopeComputation "off"
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  AdvancedOptControl	  ""
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  2147483647
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	  OptimizeBlockOrder	  "off"
+	  OptimizeDataStoreBuffers on
+	  BusAssignmentInplaceUpdate on
+	  DifferentSizesBufferReuse off
+	  OptimizationLevel	  "level2"
+	  OptimizationPriority	  "Balanced"
+	  OptimizationCustomize	  on
+	  UseRowMajorAlgorithm	  off
+	  LabelGuidedReuse	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  13
+	  Version		  "1.18.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "UseOnlyExistingSharedCode"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  StringTruncationChecking "error"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "none"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  ExportedTasksRateTransMsg "none"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "warning"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  UseOnlyExistingSharedCode "error"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  AllowSymbolicDim	  on
+	  RowMajorDimensionSupport off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  ChecksumConsistencyForSSReuse	"none"
+	  LibraryContextMissingDiagnostic "warning"
+	  MatchCodeGenerationContextForUpdateDiagram "none"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  SymbolicDimMinMaxWarning "warning"
+	  LossOfSymbolicDimsSimulationWarning "warning"
+	  LossOfSymbolicDimsCodeGenerationWarning "error"
+	  SymbolicDimsDataTypeCodeGenerationDiagnostic "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnreachableExecutionPathDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  SFTemporalDelaySmallerThanSampleTimeDiag "warning"
+	  SFSelfTransitionDiag	  "warning"
+	  SFExecutionAtInitializationDiag "none"
+	  SFMachineParentedDataDiag "warning"
+	  IntegerSaturationMsg	  "warning"
+	  AllowedUnitSystems	  "all"
+	  UnitsInconsistencyMsg	  "warning"
+	  AllowAutomaticUnitConversions	on
+	  RCSCRenamedMsg	  "warning"
+	  RCSCObservableMsg	  "warning"
+	  ForceCombineOutputUpdateInSim	off
+	  UnitDatabase		  ""
+	  UnderSpecifiedDimensionMsg "none"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  14
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdBitPerSizeT	  32
+	  ProdBitPerPtrDiffT	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  64
+	  TargetBitPerSizeT	  64
+	  TargetBitPerPtrDiffT	  64
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  on
+	  TargetIntDivRoundTo	  "Zero"
+	  TargetEndianess	  "LittleEndian"
+	  TargetWordSize	  64
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "MATLAB Host"
+	  TargetUnknown		  off
+	  ProdEqTarget		  off
+	  UseEmbeddedCoderFeatures on
+	  UseSimulinkCoderFeatures on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  15
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  EnableRefExpFcnMdlSchedulingChecks on
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelDependencies	  ""
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  16
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  SimCustomSourceCode	  ""
+	  SimCustomHeaderCode	  ""
+	  SimCustomInitializer	  ""
+	  SimCustomTerminator	  ""
+	  SimReservedNameArray	  []
+	  SimUserSources	  ""
+	  SimUserIncludeDirs	  ""
+	  SimUserLibraries	  ""
+	  SimUserDefines	  ""
+	  SimCustomCompilerFlags  ""
+	  SimCustomLinkerFlags	  ""
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimAnalyzeCustomCode	  off
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	  ModelFunctionsGlobalVisibility "on"
+	  CompileTimeRecursionLimit 50
+	  EnableRuntimeRecursion  on
+	  MATLABDynamicMemAlloc	  on
+	  MATLABDynamicMemAllocThreshold 65536
+	  CustomCodeFunctionArrayLayout	[]
+	  DefaultCustomCodeFunctionArrayLayout "NotSpecified"
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  17
+	  Version		  "1.18.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    16
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  HardwareBoard		  "None"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  "Generic Real-Time Target"
+	  GenerateReport	  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  RTWBuildHooks		  []
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomDefine		  ""
+	  CustomBLASCallback	  ""
+	  CustomLAPACKCallback	  ""
+	  CustomFFTCallback	  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  CustomToolchainOptions  []
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation "off"
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  ObjectivePriorities	  []
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      18
+	      Version		      "1.18.1"
+	      Array {
+		Type			"Cell"
+		Dimension		28
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"ReqsInCode"
+		Cell			"BlockCommentType"
+		Cell			"CustomSymbolStrModelFcn"
+		Cell			"CustomSymbolStrEmxType"
+		Cell			"CustomSymbolStrEmxFcn"
+		Cell			"CustomUserTokenString"
+		PropName		"DisabledProps"
+	      }
+	      Description	      ""
+	      Comment		      ""
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      MangleLength	      1
+	      SharedChecksumLength    8
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrModelFcn "$R$N"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      CustomSymbolStrEmxType  "emxArray_$M$N"
+	      CustomSymbolStrEmxFcn   "emx$M$N"
+	      CustomUserTokenString   ""
+	      CustomCommentsFcn	      ""
+	      DefineNamingRule	      "None"
+	      DefineNamingFcn	      ""
+	      ParamNamingRule	      "None"
+	      ParamNamingFcn	      ""
+	      SignalNamingRule	      "None"
+	      SignalNamingFcn	      ""
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      BlockCommentType	      "BlockPathComment"
+	      StateflowObjectComments on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifierFile  ""
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	      ReservedNameArray	      []
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      19
+	      Version		      "1.18.1"
+	      Array {
+		Type			"Cell"
+		Dimension		18
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"PreserveStateflowLocalDataDimensions"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"ExistingSharedCode"
+		Cell			"RemoveDisableFunc"
+		Cell			"RemoveResetFunc"
+		PropName		"DisabledProps"
+	      }
+	      Description	      ""
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      MultiwordTypeDef	      "System defined"
+	      MultiwordLength	      2048
+	      DynamicStringBufferSize 256
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      ExistingSharedCode      ""
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns off
+	      CombineSignalStateStructs	off
+	      GroupInternalDataByFunction off
+	      SuppressErrorStatus     off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      off
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      PurelyIntegerCode	      off
+	      SupportNonFinite	      off
+	      SupportComplex	      on
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      RemoveDisableFunc	      off
+	      RemoveResetFunc	      off
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      PreserveStateflowLocalDataDimensions off
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      MDXCompliant	      off
+	      GRTInterface	      on
+	      GenerateAllocFcn	      off
+	      UseToolchainInfoCompliant	on
+	      GenerateSharedConstants on
+	      CoderGroups	      []
+	      AccessMethods	      []
+	      LookupTableObjectStructAxisOrder "1,2,3,4,..."
+	      LUTObjectStructOrderExplicitValues "Size,Breakpoints,Table"
+	      LUTObjectStructOrderEvenSpacing "Size,Breakpoints,Table"
+	      ArrayLayout	      "Column-major"
+	      UnsupportedSFcnMsg      "error"
+	      ERTHeaderFileRootName   "$R$E"
+	      ERTSourceFileRootName   "$R$E"
+	      ERTDataFileRootName     "$R_data"
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeMexArgs	      ""
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	SlCovCC.ConfigComp {
+	  $ObjectID		  20
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  "Simulink Coverage Configuration Component"
+	  Name			  "Simulink Coverage"
+	  CovEnable		  off
+	  CovScope		  "EntireSystem"
+	  CovIncludeTopModel	  on
+	  RecordCoverage	  off
+	  CovPath		  "/"
+	  CovSaveName		  "covdata"
+	  CovCompData		  ""
+	  CovMetricSettings	  "dcmw"
+	  CovFilter		  ""
+	  CovHTMLOptions	  " -sRT=1 -aTS=1 -bRG=1 -bTC=1 -hTR=0 -nFC=0 -scm=1 -bcm=1 -xEv=0"
+	  CovNameIncrementing	  off
+	  CovHtmlReporting	  on
+	  CovForceBlockReductionOff on
+	  CovEnableCumulative	  on
+	  CovSaveCumulativeToWorkspaceVar on
+	  CovSaveSingleToWorkspaceVar on
+	  CovCumulativeVarName	  "covCumulativeData"
+	  CovCumulativeReport	  off
+	  CovSaveOutputData	  on
+	  CovOutputDir		  "slcov_output/$ModelName$"
+	  CovDataFileName	  "$ModelName$_cvdata"
+	  CovShowResultsExplorer  on
+	  CovReportOnPause	  on
+	  CovModelRefEnable	  "off"
+	  CovModelRefExcluded	  ""
+	  CovExternalEMLEnable	  off
+	  CovSFcnEnable		  on
+	  CovBoundaryAbsTol	  1e-05
+	  CovBoundaryRelTol	  0.01
+	  CovUseTimeInterval	  off
+	  CovStartTime		  0
+	  CovStopTime		  0
+	  CovMcdcMode		  "Masking"
+	}
+	Sldv.ConfigComp {
+	  $ObjectID		  21
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  "Design Verifier Custom Configuration Component"
+	  Name			  "Design Verifier"
+	  DVMode		  "TestGeneration"
+	  DVMaxProcessTime	  300
+	  DVDisplayUnsatisfiableObjectives off
+	  DVAutomaticStubbing	  on
+	  DVDesignMinMaxConstraints on
+	  DVOutputDir		  "sldv_output/$ModelName$"
+	  DVMakeOutputFilesUnique on
+	  DVBlockReplacement	  off
+	  DVBlockReplacementRulesList "<FactoryDefaultRules>"
+	  DVBlockReplacementModelFileName "$ModelName$_replacement"
+	  DVSubSystemToStub	  []
+	  DVParameters		  off
+	  DVParametersConfigFileName "sldv_params_template.m"
+	  DVParameterNames	  []
+	  DVParameterConstraints  []
+	  DVParameterUseInAnalysis []
+	  DVParametersUseConfig	  off
+	  DVTestgenTarget	  "Model"
+	  DVModelCoverageObjectives "ConditionDecision"
+	  DVTestConditions	  "UseLocalSettings"
+	  DVTestObjectives	  "UseLocalSettings"
+	  DVMaxTestCaseSteps	  500
+	  DVTestSuiteOptimization "CombinedObjectives (Nonlinear Extended)"
+	  DVPathBasedTestGeneration off
+	  DVPathBasedCustomization ""
+	  DVObservabilityCustomization ""
+	  DVAssertions		  "UseLocalSettings"
+	  DVProofAssumptions	  "UseLocalSettings"
+	  DVExtendExistingTests	  off
+	  DVExistingTestFile	  ""
+	  DVIgnoreExistTestSatisfied on
+	  DVIgnoreCovSatisfied	  off
+	  DVCoverageDataFile	  ""
+	  DVCovFilter		  off
+	  DVCovFilterFileName	  ""
+	  DVIncludeRelationalBoundary off
+	  DVRelativeTolerance	  0.01
+	  DVAbsoluteTolerance	  1e-05
+	  DVDetectDeadLogic	  on
+	  DVDetectActiveLogic	  on
+	  DVDetectOutOfBounds	  off
+	  DVDetectDivisionByZero  off
+	  DVDetectIntegerOverflow off
+	  DVDetectInfNaN	  off
+	  DVDetectSubnormal	  off
+	  DVDesignMinMaxCheck	  off
+	  DVDetectDSMHazards	  off
+	  DVDetectSFTransConflict on
+	  DVDetectSFStateInconsistency on
+	  DVDetectSFArrayOutOfBounds on
+	  DVDetectEMLArrayOutOfBounds on
+	  DVDetectSLSelectorOutOfBounds	on
+	  DVDetectSLMPSwitchOutOfBounds	on
+	  DVDetectSLInvalidCast	  on
+	  DVDetectSLMergeConflict on
+	  DVDetectSLUninitializedDSR on
+	  DVProvingStrategy	  "Prove"
+	  DVMaxViolationSteps	  20
+	  DVSaveDataFile	  on
+	  DVDataFileName	  "$ModelName$_sldvdata"
+	  DVSaveExpectedOutput	  off
+	  DVRandomizeNoEffectData off
+	  DVSaveHarnessModel	  off
+	  DVHarnessModelFileName  "$ModelName$_harness"
+	  DVModelReferenceHarness off
+	  DVSaveSystemTestHarness off
+	  DVSystemTestFileName	  "$ModelName$_harness"
+	  DVSaveReport		  off
+	  DVReportPDFFormat	  off
+	  DVReportFileName	  "$ModelName$_report"
+	  DVReportIncludeGraphics off
+	  DVDisplayReport	  on
+	  DVDisplayResultsOnModel off
+	  DVEnableObjComposition  off
+	  DVObjectiveComposeSpecFileName "sldv_compose_spec.m"
+	  DVSFcnSupport		  on
+	  DVSFcnExtraOptions	  ""
+	  DVReduceRationalApprox  on
+	  DVSlTestFileName	  "$ModelName$_test"
+	  DVSlTestHarnessName	  "$ModelName$_sldvharness"
+	  DVSlTestHarnessSource	  "Inport"
+	  DVActiveTab		  "0"
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      ExtraOptions	      ""
+      CurrentDlgPage	      "Code Generation/Interface"
+      ConfigPrmDlgPosition    [ 301, 49, 1300, 754 ]
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    9
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    22
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    HideAutomaticName	    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    MarkupType		    "model"
+    UseDisplayTextAsClickCallback off
+    AnnotationType	    "note_annotation"
+    FixedHeight		    off
+    FixedWidth		    off
+    Interpreter		    "off"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "opaque"
+    RunInitForIconRedraw    "analyze"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit via back propagation"
+      LockScale		      off
+      ConvertRealWorld	      "Real World Value (RWV)"
+      RndMeth		      "Zero"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Demux
+      Outputs		      "4"
+      DisplayOption	      "none"
+      BusSelectionMode	      off
+    }
+    Block {
+      BlockType		      From
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      Unit		      "inherit"
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Logic
+      Operator		      "AND"
+      Inputs		      "2"
+      IconShape		      "rectangular"
+      AllPortsSameDT	      on
+      OutDataTypeStr	      "Inherit: Logical (see Configuration Parameters: Optimization)"
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      Unit		      "inherit"
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      EnsureOutportIsVirtual  off
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+      MustResolveToSignalObject	off
+      OutputWhenUnConnected   off
+      OutputWhenUnconnectedValue "0"
+      VectorParamsAs1DForOutWhenUnconnected off
+    }
+    Block {
+      BlockType		      RelationalOperator
+      Operator		      ">="
+      InputSameDT	      on
+      OutDataTypeStr	      "Inherit: Logical (see Configuration Parameters: Optimization)"
+      ZeroCross		      on
+      SampleTime	      "-1"
+      RndMeth		      "Nearest"
+    }
+    Block {
+      BlockType		      S-Function
+      FunctionName	      "system"
+      SFunctionModules	      "''"
+      PortCounts	      "[]"
+      MultiThreadCoSim	      "auto"
+    }
+    Block {
+      BlockType		      Selector
+      NumberOfDimensions      "1"
+      IndexMode		      "One-based"
+      InputPortWidth	      "-1"
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      VariantControlMode      "Expression"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      TreatAsGroupedWhenPropagatingVariantConditions on
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+      IsObserver	      off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
+      IsWebBlockPanel	      off
+    }
+    Block {
+      BlockType		      Switch
+      Criteria		      "u2 >= Threshold"
+      Threshold		      "0"
+      InputSameDT	      on
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      ZeroCross		      on
+      SampleTime	      "-1"
+      AllowDiffInputSizes     off
+    }
+    Block {
+      BlockType		      Terminator
+    }
+    Block {
+      BlockType		      UnitDelay
+      InitialCondition	      "0"
+      InputProcessing	      "Inherited"
+      SampleTime	      "1"
+      StateMustResolveToSignalObject off
+      CodeGenStateStorageClass "Auto"
+      HasFrameUpgradeWarning  on
+    }
+  }
+  System {
+    Name		    "BCM_C1A_CombiSwitch_9"
+    Location		    [-8, -8, 1368, 736]
+    Open		    on
+    PortBlocksUseCompactNotation off
+    SetExecutionDomain	    off
+    ExecutionDomainType	    "Deduce"
+    ModelBrowserVisibility  on
+    ModelBrowserWidth	    400
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "79"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "7237"
+    Block {
+      BlockType		      Inport
+      Name		      "In1"
+      SID		      "7222"
+      Position		      [-100, 68, -70, 82]
+      ZOrder		      1
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "In2"
+      SID		      "7223"
+      Position		      [-100, 133, -70, 147]
+      ZOrder		      2
+      Port		      "2"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "In3"
+      SID		      "7224"
+      Position		      [-100, 203, -70, 217]
+      ZOrder		      3
+      Port		      "3"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "In4"
+      SID		      "7225"
+      Position		      [-100, 273, -70, 287]
+      ZOrder		      4
+      Port		      "4"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "In5"
+      SID		      "7226"
+      Position		      [-100, 338, -70, 352]
+      ZOrder		      5
+      Port		      "5"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "In6"
+      SID		      "7227"
+      Position		      [-100, 408, -70, 422]
+      ZOrder		      6
+      Port		      "6"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "In7"
+      SID		      "7228"
+      Position		      [-100, 483, -70, 497]
+      ZOrder		      7
+      Port		      "7"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "In8"
+      SID		      "7229"
+      Position		      [-100, 548, -70, 562]
+      ZOrder		      8
+      Port		      "8"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "In9"
+      SID		      "7236"
+      Position		      [-95, 623, -65, 637]
+      ZOrder		      14
+      Port		      "9"
+      IconDisplay	      "Port number"
+      Port {
+	PortNumber		1
+	Name			"IN_DRIVING_CYCLE"
+      }
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "In10"
+      SID		      "7237"
+      Position		      [-95, 693, -65, 707]
+      ZOrder		      15
+      Port		      "10"
+      IconDisplay	      "Port number"
+      Port {
+	PortNumber		1
+	Name			"COMBI_SW_FAILURE_DETECTED_TM"
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "CombiSwitch"
+      SID		      "4382"
+      Tag		      "[RUNNABLE]"
+      Ports		      [10, 3]
+      Position		      [100, 36, 495, 734]
+      ZOrder		      -1
+      ForegroundColor	      "blue"
+      BackgroundColor	      "cyan"
+      RequestExecContextInheritance off
+      System {
+	Name			"CombiSwitch"
+	Location		[-8, -8, 1368, 736]
+	Open			on
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	354
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"150"
+	Block {
+	  BlockType		  Inport
+	  Name			  "CSW_LINE_1"
+	  SID			  "4385"
+	  Position		  [90, 558, 110, 572]
+	  ZOrder		  -3
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "boolean"
+	  PortDimensions	  "6"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CSW_LINE_2"
+	  SID			  "4386"
+	  Position		  [90, 623, 110, 637]
+	  ZOrder		  -4
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>"
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "boolean"
+	  PortDimensions	  "6"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CSW_LINE_3"
+	  SID			  "4387"
+	  Position		  [90, 688, 110, 702]
+	  ZOrder		  -5
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>"
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "boolean"
+	  PortDimensions	  "6"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CSW_LINE_4"
+	  SID			  "4388"
+	  Position		  [90, 753, 110, 767]
+	  ZOrder		  -6
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>"
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "boolean"
+	  PortDimensions	  "6"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CSW_LINE_5"
+	  SID			  "4389"
+	  Position		  [90, 818, 110, 832]
+	  ZOrder		  -7
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>"
+	  Port			  "5"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "boolean"
+	  PortDimensions	  "6"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CSW_LINE_6"
+	  SID			  "4390"
+	  Position		  [90, 883, 110, 897]
+	  ZOrder		  -8
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>"
+	  Port			  "6"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "boolean"
+	  PortDimensions	  "6"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "RAZ_BY_DIAG"
+	  SID			  "4392"
+	  Position		  [90, 1008, 110, 1022]
+	  ZOrder		  -10
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>"
+	  Port			  "7"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "Enum: TYP_EVENT"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "VEHICLE_STATE"
+	  SID			  "4395"
+	  Position		  [90, 1188, 110, 1202]
+	  ZOrder		  -13
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>"
+	  Port			  "8"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "Enum: TYP_VEHICLE_STATE"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "IN_DRIVING_CYCLE"
+	  SID			  "7219"
+	  Position		  [180, 1363, 200, 1377]
+	  ZOrder		  246
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>"
+	  Port			  "9"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "boolean"
+	  Port {
+	    PortNumber		    1
+	    Name		    "IN_DRIVING_CYCLE"
+	    PropagatedSignals	    "IN_"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "COMBI_SW_FAILURE_DETECTED_TM"
+	  SID			  "7235"
+	  Position		  [140, 1268, 160, 1282]
+	  ZOrder		  249
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>"
+	  Port			  "10"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "uint16"
+	  Port {
+	    PortNumber		    1
+	    Name		    "COMBI_SW_FAILURE_DETECTED_TM"
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "CSW_FAILURE_DETECTION"
+	  SID			  "5202"
+	  Description		  "RQT_BCM_CSV_1_1  \nRQT_BCM_CSV_1_2  \nRQT_BCM_CSV_1_3  \nRQT_BCM_CSV_1_3_2"
+	  Ports			  [10, 3]
+	  Position		  [1080, 831, 1485, 1239]
+	  ZOrder		  -16
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "CSW_FAILURE_DETECTION"
+	    Location		    [-8, -8, 1368, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  on
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "89"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "VEHICLE_STATE"
+	      SID		      "5203"
+	      Position		      [100, 413, 120, 427]
+	      ZOrder		      -1
+	      BackgroundColor	      "green"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "Enum: TYP_VEHICLE_STATE"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "RAZ_BY_DIAG"
+	      SID		      "5204"
+	      Position		      [100, 458, 120, 472]
+	      ZOrder		      -2
+	      BackgroundColor	      "green"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>"
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "CSW_LINE_1"
+	      SID		      "5205"
+	      Position		      [100, 503, 120, 517]
+	      ZOrder		      -3
+	      BackgroundColor	      "green"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>"
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	      PortDimensions	      "6"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "CSW_LINE_2"
+	      SID		      "5206"
+	      Position		      [100, 548, 120, 562]
+	      ZOrder		      -4
+	      BackgroundColor	      "green"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>"
+	      Port		      "4"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	      PortDimensions	      "6"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "CSW_LINE_3"
+	      SID		      "5207"
+	      Position		      [100, 593, 120, 607]
+	      ZOrder		      -5
+	      BackgroundColor	      "green"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>"
+	      Port		      "5"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	      PortDimensions	      "6"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "CSW_LINE_4"
+	      SID		      "5208"
+	      Position		      [100, 638, 120, 652]
+	      ZOrder		      -6
+	      BackgroundColor	      "green"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>"
+	      Port		      "6"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	      PortDimensions	      "6"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "CSW_LINE_5"
+	      SID		      "5209"
+	      Position		      [100, 683, 120, 697]
+	      ZOrder		      -7
+	      BackgroundColor	      "green"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>"
+	      Port		      "7"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	      PortDimensions	      "6"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "CSW_LINE_6"
+	      SID		      "5210"
+	      Position		      [100, 728, 120, 742]
+	      ZOrder		      -8
+	      BackgroundColor	      "green"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>"
+	      Port		      "8"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	      PortDimensions	      "6"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "COMBI_SW_FAILURE_DETECTED_TM"
+	      SID		      "5211"
+	      Position		      [100, 773, 120, 787]
+	      ZOrder		      -9
+	      BackgroundColor	      "green"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>"
+	      Port		      "9"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "uint16"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "IN_DRIVING_CYCLE"
+	      SID		      "5212"
+	      Position		      [100, 818, 120, 832]
+	      ZOrder		      -10
+	      BackgroundColor	      "green"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>"
+	      Port		      "10"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "CSW_FAILURE_DETECTION_FCT"
+	      SID		      "5213"
+	      Description	      "RQT_BCM_CSV_1_0_1"
+	      Ports		      [4, 3]
+	      Position		      [635, 865, 1090, 1145]
+	      ZOrder		      -11
+	      LibraryVersion	      "1.235"
+	      ErrorFcn		      "Stateflow.Translate.translate"
+	      PermitHierarchicalResolution "ExplicitOnly"
+	      TreatAsAtomicUnit	      on
+	      RequestExecContextInheritance off
+	      SFBlockType	      "Chart"
+	      System {
+		Name			"CSW_FAILURE_DETECTION_FCT"
+		Location		[-8, -8, 1368, 736]
+		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
+		ModelBrowserVisibility	on
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"A4"
+		PaperUnits		"centimeters"
+		TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		SIDHighWatermark	"33"
+		Block {
+		  BlockType		  Inport
+		  Name			  "IN_DRIVING_CYCLE"
+		  SID			  "5213::17"
+		  Position		  [20, 101, 40, 119]
+		  ZOrder		  -1
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "RAZ_BY_DIAG"
+		  SID			  "5213::18"
+		  Position		  [20, 136, 40, 154]
+		  ZOrder		  -2
+		  Port			  "2"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "COMBI_SW_FAILURE"
+		  SID			  "5213::19"
+		  Position		  [20, 171, 40, 189]
+		  ZOrder		  -3
+		  Port			  "3"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "COMBI_SW_FAILURE_DETECTED_TM"
+		  SID			  "5213::20"
+		  Position		  [20, 206, 40, 224]
+		  ZOrder		  -4
+		  Port			  "4"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Demux
+		  Name			  " Demux "
+		  SID			  "5213::32"
+		  Ports			  [1, 1]
+		  Position		  [270, 245, 320, 285]
+		  ZOrder		  7
+		  Outputs		  "1"
+		}
+		Block {
+		  BlockType		  S-Function
+		  Name			  " SFunction "
+		  SID			  "5213::31"
+		  Tag			  "Stateflow S-Function BCM_C1A_CombiSwitch_9 5"
+		  Ports			  [4, 4]
+		  Position		  [180, 102, 230, 203]
+		  ZOrder		  6
+		  FunctionName		  "sf_sfun"
+		  PortCounts		  "[4 4]"
+		  SFunctionDeploymentMode off
+		  EnableBusSupport	  on
+		  SFcnIsStateOwnerBlock	  off
+		  Port {
+		    PortNumber		    2
+		    Name		    "COMBI_SW_FAILURE_TFAIL"
+		  }
+		  Port {
+		    PortNumber		    3
+		    Name		    "COMBI_SW_FAILURE_TCONF"
+		  }
+		  Port {
+		    PortNumber		    4
+		    Name		    "CSW_IN_FAILURE_MODE"
+		  }
+		}
+		Block {
+		  BlockType		  Terminator
+		  Name			  " Terminator "
+		  SID			  "5213::33"
+		  Position		  [460, 256, 480, 274]
+		  ZOrder		  8
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "COMBI_SW_FAILURE_TFAIL"
+		  SID			  "5213::30"
+		  Position		  [460, 101, 480, 119]
+		  ZOrder		  5
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "COMBI_SW_FAILURE_TCONF"
+		  SID			  "5213::24"
+		  Position		  [460, 136, 480, 154]
+		  ZOrder		  -10
+		  Port			  "2"
+		  IconDisplay		  "Port number"
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "CSW_IN_FAILURE_MODE"
+		  SID			  "5213::25"
+		  Position		  [460, 171, 480, 189]
+		  ZOrder		  -11
+		  Port			  "3"
+		  IconDisplay		  "Port number"
+		}
+		Line {
+		  ZOrder		  102
+		  SrcBlock		  "IN_DRIVING_CYCLE"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  103
+		  SrcBlock		  "RAZ_BY_DIAG"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  104
+		  SrcBlock		  "COMBI_SW_FAILURE"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  3
+		}
+		Line {
+		  ZOrder		  105
+		  SrcBlock		  "COMBI_SW_FAILURE_DETECTED_TM"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  4
+		}
+		Line {
+		  Name			  "COMBI_SW_FAILURE_TFAIL"
+		  ZOrder		  106
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  2
+		  DstBlock		  "COMBI_SW_FAILURE_TFAIL"
+		  DstPort		  1
+		}
+		Line {
+		  Name			  "COMBI_SW_FAILURE_TCONF"
+		  ZOrder		  107
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  3
+		  DstBlock		  "COMBI_SW_FAILURE_TCONF"
+		  DstPort		  1
+		}
+		Line {
+		  Name			  "CSW_IN_FAILURE_MODE"
+		  ZOrder		  108
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  4
+		  DstBlock		  "CSW_IN_FAILURE_MODE"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  109
+		  SrcBlock		  " Demux "
+		  SrcPort		  1
+		  DstBlock		  " Terminator "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  110
+		  SrcBlock		  " SFunction "
+		  SrcPort		  1
+		  DstBlock		  " Demux "
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "DET_CSW_FAILURE"
+	      SID		      "5214"
+	      Ports		      [8, 1]
+	      Position		      [740, 433, 985, 802]
+	      ZOrder		      -12
+	      RequestExecContextInheritance off
+	      System {
+		Name			"DET_CSW_FAILURE"
+		Location		[-8, 0, 1608, 876]
+		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
+		ModelBrowserVisibility	on
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"A4"
+		PaperUnits		"centimeters"
+		TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"60"
+		Block {
+		  BlockType		  Inport
+		  Name			  "VEHICLE_STATE"
+		  SID			  "5215"
+		  Position		  [135, 373, 155, 387]
+		  ZOrder		  -1
+		  BackgroundColor	  "green"
+		  AttributesFormatString  "Type : %<OutDataTypeStr>"
+		  IconDisplay		  "Port number"
+		  OutDataTypeStr	  "Enum: TYP_VEHICLE_STATE"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "RAZ_BY_DIAG"
+		  SID			  "5216"
+		  Position		  [135, 418, 155, 432]
+		  ZOrder		  -2
+		  BackgroundColor	  "green"
+		  AttributesFormatString  "Type : %<OutDataTypeStr>"
+		  Port			  "2"
+		  IconDisplay		  "Port number"
+		  OutDataTypeStr	  "boolean"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "CSW_LINE_1"
+		  SID			  "5217"
+		  Position		  [135, 463, 155, 477]
+		  ZOrder		  -3
+		  BackgroundColor	  "green"
+		  AttributesFormatString  "Type : %<OutDataTypeStr>"
+		  Port			  "3"
+		  IconDisplay		  "Port number"
+		  OutDataTypeStr	  "boolean"
+		  PortDimensions	  "6"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "CSW_LINE_2"
+		  SID			  "5218"
+		  Position		  [135, 508, 155, 522]
+		  ZOrder		  -4
+		  BackgroundColor	  "green"
+		  AttributesFormatString  "Type : %<OutDataTypeStr>"
+		  Port			  "4"
+		  IconDisplay		  "Port number"
+		  OutDataTypeStr	  "boolean"
+		  PortDimensions	  "6"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "CSW_LINE_3"
+		  SID			  "5219"
+		  Position		  [135, 553, 155, 567]
+		  ZOrder		  -5
+		  BackgroundColor	  "green"
+		  AttributesFormatString  "Type : %<OutDataTypeStr>"
+		  Port			  "5"
+		  IconDisplay		  "Port number"
+		  OutDataTypeStr	  "boolean"
+		  PortDimensions	  "6"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "CSW_LINE_4"
+		  SID			  "5220"
+		  Position		  [135, 598, 155, 612]
+		  ZOrder		  -6
+		  BackgroundColor	  "green"
+		  AttributesFormatString  "Type : %<OutDataTypeStr>"
+		  Port			  "6"
+		  IconDisplay		  "Port number"
+		  OutDataTypeStr	  "boolean"
+		  PortDimensions	  "6"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "CSW_LINE_5"
+		  SID			  "5221"
+		  Position		  [135, 643, 155, 657]
+		  ZOrder		  -7
+		  BackgroundColor	  "green"
+		  AttributesFormatString  "Type : %<OutDataTypeStr>"
+		  Port			  "7"
+		  IconDisplay		  "Port number"
+		  OutDataTypeStr	  "boolean"
+		  PortDimensions	  "6"
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "CSW_LINE_6"
+		  SID			  "5222"
+		  Position		  [135, 688, 155, 702]
+		  ZOrder		  -8
+		  BackgroundColor	  "green"
+		  AttributesFormatString  "Type : %<OutDataTypeStr>"
+		  Port			  "8"
+		  IconDisplay		  "Port number"
+		  OutDataTypeStr	  "boolean"
+		  PortDimensions	  "6"
+		}
+		Block {
+		  BlockType		  Constant
+		  Name			  "Constant"
+		  SID			  "5223"
+		  Position		  [460, 890, 665, 910]
+		  ZOrder		  -9
+		  ShowName		  off
+		  Value			  "TYP_VEHICLE_STATE.VS_SLEEPING"
+		  OutDataTypeStr	  "Enum: TYP_VEHICLE_STATE"
+		  SampleTime		  "-1"
+		}
+		Block {
+		  BlockType		  DataTypeConversion
+		  Name			  "DataTypeConversion"
+		  SID			  "5224"
+		  Position		  [605, 288, 680, 322]
+		  ZOrder		  -10
+		  ShowName		  off
+		  AttributesFormatString  "Saturation:%<SaturateOnIntegerOverflow>"
+		  OutDataTypeStr	  "uint8"
+		  SaturateOnIntegerOverflow off
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From"
+		  SID			  "5225"
+		  Position		  [460, 445, 540, 465]
+		  ZOrder		  -11
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_1"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From1"
+		  SID			  "5226"
+		  Position		  [460, 520, 540, 540]
+		  ZOrder		  -12
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_2"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From10"
+		  SID			  "5227"
+		  Position		  [460, 60, 540, 80]
+		  ZOrder		  -13
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_2"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From11"
+		  SID			  "5228"
+		  Position		  [460, 105, 540, 125]
+		  ZOrder		  -14
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_3"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From12"
+		  SID			  "5229"
+		  Position		  [460, 150, 540, 170]
+		  ZOrder		  -15
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_4"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From13"
+		  SID			  "5230"
+		  Position		  [460, 195, 540, 215]
+		  ZOrder		  -16
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_5"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From14"
+		  SID			  "5231"
+		  Position		  [460, 240, 540, 260]
+		  ZOrder		  -17
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_6"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From15"
+		  SID			  "6719"
+		  Position		  [1510, 740, 1630, 760]
+		  ZOrder		  14
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "COMBI_SW_FAILURE"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From16"
+		  SID			  "6720"
+		  Position		  [460, 985, 605, 1005]
+		  ZOrder		  15
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "COMBI_SW_FAILURE"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From2"
+		  SID			  "5233"
+		  Position		  [460, 595, 540, 615]
+		  ZOrder		  -19
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_3"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From3"
+		  SID			  "5234"
+		  Position		  [460, 670, 540, 690]
+		  ZOrder		  -20
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_4"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From4"
+		  SID			  "5235"
+		  Position		  [460, 745, 540, 765]
+		  ZOrder		  -21
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_5"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From5"
+		  SID			  "5236"
+		  Position		  [460, 820, 540, 840]
+		  ZOrder		  -22
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_6"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From6"
+		  SID			  "5237"
+		  Position		  [460, 370, 550, 390]
+		  ZOrder		  -23
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "RAZ_BY_DIAG"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From7"
+		  SID			  "5238"
+		  Position		  [460, 295, 560, 315]
+		  ZOrder		  -24
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "VEHICLE_STATE"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From8"
+		  SID			  "5239"
+		  Position		  [460, 930, 560, 950]
+		  ZOrder		  -25
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "VEHICLE_STATE"
+		}
+		Block {
+		  BlockType		  From
+		  Name			  "From9"
+		  SID			  "5240"
+		  Position		  [460, 15, 540, 35]
+		  ZOrder		  -26
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_1"
+		}
+		Block {
+		  BlockType		  Goto
+		  Name			  "Goto"
+		  SID			  "5241"
+		  Position		  [280, 460, 360, 480]
+		  ZOrder		  -27
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_1"
+		}
+		Block {
+		  BlockType		  Goto
+		  Name			  "Goto1"
+		  SID			  "5242"
+		  Position		  [280, 505, 360, 525]
+		  ZOrder		  -28
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_2"
+		}
+		Block {
+		  BlockType		  Goto
+		  Name			  "Goto12"
+		  SID			  "5243"
+		  Position		  [260, 370, 360, 390]
+		  ZOrder		  -29
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "VEHICLE_STATE"
+		}
+		Block {
+		  BlockType		  Goto
+		  Name			  "Goto2"
+		  SID			  "5244"
+		  Position		  [280, 550, 360, 570]
+		  ZOrder		  -30
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_3"
+		}
+		Block {
+		  BlockType		  Goto
+		  Name			  "Goto3"
+		  SID			  "5245"
+		  Position		  [280, 595, 360, 615]
+		  ZOrder		  -31
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_4"
+		}
+		Block {
+		  BlockType		  Goto
+		  Name			  "Goto4"
+		  SID			  "5246"
+		  Position		  [280, 640, 360, 660]
+		  ZOrder		  -32
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_5"
+		}
+		Block {
+		  BlockType		  Goto
+		  Name			  "Goto5"
+		  SID			  "5247"
+		  Position		  [280, 685, 360, 705]
+		  ZOrder		  -33
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "CSW_LINE_6"
+		}
+		Block {
+		  BlockType		  Goto
+		  Name			  "Goto6"
+		  SID			  "6718"
+		  Position		  [1380, 740, 1490, 760]
+		  ZOrder		  13
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "COMBI_SW_FAILURE"
+		}
+		Block {
+		  BlockType		  Goto
+		  Name			  "Goto9"
+		  SID			  "5249"
+		  Position		  [270, 415, 360, 435]
+		  ZOrder		  -35
+		  BackgroundColor	  "green"
+		  ShowName		  off
+		  GotoTag		  "RAZ_BY_DIAG"
+		}
+		Block {
+		  BlockType		  Logic
+		  Name			  "LogicalOperator10"
+		  SID			  "5252"
+		  Ports			  [1, 1]
+		  Position		  [985, 124, 1015, 156]
+		  ZOrder		  -38
+		  ShowName		  off
+		  Operator		  "NOT"
+		  Inputs		  "1"
+		  OutDataTypeStr	  "boolean"
+		}
+		Block {
+		  BlockType		  Logic
+		  Name			  "LogicalOperator6"
+		  SID			  "5260"
+		  Ports			  [8, 1]
+		  Position		  [995, 267, 1025, 868]
+		  ZOrder		  -46
+		  ShowName		  off
+		  Operator		  "OR"
+		  Inputs		  "8"
+		  OutDataTypeStr	  "boolean"
+		}
+		Block {
+		  BlockType		  Logic
+		  Name			  "LogicalOperator7"
+		  SID			  "5261"
+		  Ports			  [2, 1]
+		  Position		  [1115, 732, 1145, 763]
+		  ZOrder		  -47
+		  ShowName		  off
+		  OutDataTypeStr	  "boolean"
+		}
+		Block {
+		  BlockType		  Logic
+		  Name			  "LogicalOperator9"
+		  SID			  "5263"
+		  Ports			  [6, 1]
+		  Position		  [880, 4, 910, 271]
+		  ZOrder		  -49
+		  ShowName		  off
+		  Inputs		  "6"
+		  OutDataTypeStr	  "boolean"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "RSA_DetectChange_v01_04"
+		  SID			  "5931"
+		  Tag			  "[LIB]"
+		  Ports			  [1, 1]
+		  Position		  [775, 290, 835, 320]
+		  ZOrder		  1
+		  BackgroundColor	  "yellow"
+		  ShowName		  off
+		  AttributesFormatString  "%<MaskType> : Ver : 01.04\\nCompare the Input with Initial Value = %<chkini>\\nInitial Va"
+		  "lue : = %<vinit>"
+		  LibraryVersion	  "1.1614"
+		  FontName		  "Arial"
+		  SourceBlock		  "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+		  SourceType		  "RSA_DetectChange"
+		  ContentPreviewEnabled	  off
+		  chkini		  on
+		  vinit			  "false"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "RSA_DetectChange_v01_1"
+		  SID			  "5934"
+		  Tag			  "[LIB]"
+		  Ports			  [1, 1]
+		  Position		  [775, 440, 835, 470]
+		  ZOrder		  3
+		  BackgroundColor	  "yellow"
+		  ShowName		  off
+		  AttributesFormatString  "%<MaskType> : Ver : 01.04\\nCompare the Input with Initial Value = %<chkini>\\nInitial Va"
+		  "lue : = %<vinit>"
+		  LibraryVersion	  "1.1614"
+		  FontName		  "Arial"
+		  SourceBlock		  "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+		  SourceType		  "RSA_DetectChange"
+		  ContentPreviewEnabled	  off
+		  chkini		  on
+		  vinit			  "false"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "RSA_DetectChange_v01_2"
+		  SID			  "5935"
+		  Tag			  "[LIB]"
+		  Ports			  [1, 1]
+		  Position		  [775, 515, 835, 545]
+		  ZOrder		  4
+		  BackgroundColor	  "yellow"
+		  ShowName		  off
+		  AttributesFormatString  "%<MaskType> : Ver : 01.04\\nCompare the Input with Initial Value = %<chkini>\\nInitial Va"
+		  "lue : = %<vinit>"
+		  LibraryVersion	  "1.1614"
+		  FontName		  "Arial"
+		  SourceBlock		  "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+		  SourceType		  "RSA_DetectChange"
+		  ContentPreviewEnabled	  off
+		  chkini		  on
+		  vinit			  "false"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "RSA_DetectChange_v01_3"
+		  SID			  "5936"
+		  Tag			  "[LIB]"
+		  Ports			  [1, 1]
+		  Position		  [775, 590, 835, 620]
+		  ZOrder		  5
+		  BackgroundColor	  "yellow"
+		  ShowName		  off
+		  AttributesFormatString  "%<MaskType> : Ver : 01.04\\nCompare the Input with Initial Value = %<chkini>\\nInitial Va"
+		  "lue : = %<vinit>"
+		  LibraryVersion	  "1.1614"
+		  FontName		  "Arial"
+		  SourceBlock		  "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+		  SourceType		  "RSA_DetectChange"
+		  ContentPreviewEnabled	  off
+		  chkini		  on
+		  vinit			  "false"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "RSA_DetectChange_v01_4"
+		  SID			  "5937"
+		  Tag			  "[LIB]"
+		  Ports			  [1, 1]
+		  Position		  [775, 665, 835, 695]
+		  ZOrder		  6
+		  BackgroundColor	  "yellow"
+		  ShowName		  off
+		  AttributesFormatString  "%<MaskType> : Ver : 01.04\\nCompare the Input with Initial Value = %<chkini>\\nInitial Va"
+		  "lue : = %<vinit>"
+		  LibraryVersion	  "1.1614"
+		  FontName		  "Arial"
+		  SourceBlock		  "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+		  SourceType		  "RSA_DetectChange"
+		  ContentPreviewEnabled	  off
+		  chkini		  on
+		  vinit			  "false"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "RSA_DetectChange_v01_5"
+		  SID			  "5938"
+		  Tag			  "[LIB]"
+		  Ports			  [1, 1]
+		  Position		  [775, 740, 835, 770]
+		  ZOrder		  7
+		  BackgroundColor	  "yellow"
+		  ShowName		  off
+		  AttributesFormatString  "%<MaskType> : Ver : 01.04\\nCompare the Input with Initial Value = %<chkini>\\nInitial Va"
+		  "lue : = %<vinit>"
+		  LibraryVersion	  "1.1614"
+		  FontName		  "Arial"
+		  SourceBlock		  "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+		  SourceType		  "RSA_DetectChange"
+		  ContentPreviewEnabled	  off
+		  chkini		  on
+		  vinit			  "false"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "RSA_DetectChange_v01_6"
+		  SID			  "5939"
+		  Tag			  "[LIB]"
+		  Ports			  [1, 1]
+		  Position		  [775, 815, 835, 845]
+		  ZOrder		  8
+		  BackgroundColor	  "yellow"
+		  ShowName		  off
+		  AttributesFormatString  "%<MaskType> : Ver : 01.04\\nCompare the Input with Initial Value = %<chkini>\\nInitial Va"
+		  "lue : = %<vinit>"
+		  LibraryVersion	  "1.1614"
+		  FontName		  "Arial"
+		  SourceBlock		  "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectChange_v01_04"
+		  SourceType		  "RSA_DetectChange"
+		  ContentPreviewEnabled	  off
+		  chkini		  on
+		  vinit			  "false"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "RSA_DetectIncrease_v01_04"
+		  SID			  "5932"
+		  Tag			  "[LIB]"
+		  Ports			  [1, 1]
+		  Position		  [775, 364, 835, 396]
+		  ZOrder		  2
+		  BackgroundColor	  "yellow"
+		  ShowName		  off
+		  AttributesFormatString  "%<MaskType> : Ver : 01.04\\nCompare the Input with Initial Value = %<chkini>\\nInitial Va"
+		  "lue : = %<vinit>"
+		  LibraryVersion	  "1.1614"
+		  FontName		  "Arial"
+		  SourceBlock		  "Renault_Library/Complex blocks/Logic & Bit Operations/RSA_DetectIncrease_v01_04"
+		  SourceType		  "RSA_DetectIncrease"
+		  ContentPreviewEnabled	  off
+		  chkini		  on
+		  vinit			  "false"
+		}
+		Block {
+		  BlockType		  RelationalOperator
+		  Name			  "RelationalOperator"
+		  SID			  "5272"
+		  Ports			  [2, 1]
+		  Position		  [920, 902, 950, 933]
+		  ZOrder		  -58
+		  ShowName		  off
+		  Operator		  "~="
+		  OutDataTypeStr	  "boolean"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector"
+		  SID			  "5273"
+		  Ports			  [1, 1]
+		  Position		  [625, 436, 665, 474]
+		  ZOrder		  -59
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[0]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector1"
+		  SID			  "5274"
+		  Ports			  [1, 1]
+		  Position		  [625, 511, 665, 549]
+		  ZOrder		  -60
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[1]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector10"
+		  SID			  "5275"
+		  Ports			  [1, 1]
+		  Position		  [625, 186, 665, 224]
+		  ZOrder		  -61
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[4]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector11"
+		  SID			  "5276"
+		  Ports			  [1, 1]
+		  Position		  [625, 231, 665, 269]
+		  ZOrder		  -62
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[5]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector2"
+		  SID			  "5277"
+		  Ports			  [1, 1]
+		  Position		  [625, 586, 665, 624]
+		  ZOrder		  -63
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[2]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector3"
+		  SID			  "5278"
+		  Ports			  [1, 1]
+		  Position		  [625, 661, 665, 699]
+		  ZOrder		  -64
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[3]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector4"
+		  SID			  "5279"
+		  Ports			  [1, 1]
+		  Position		  [625, 736, 665, 774]
+		  ZOrder		  -65
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[4]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector5"
+		  SID			  "5280"
+		  Ports			  [1, 1]
+		  Position		  [625, 811, 665, 849]
+		  ZOrder		  -66
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[5]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector6"
+		  SID			  "5281"
+		  Ports			  [1, 1]
+		  Position		  [625, 6, 665, 44]
+		  ZOrder		  -67
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[0]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector7"
+		  SID			  "5282"
+		  Ports			  [1, 1]
+		  Position		  [625, 51, 665, 89]
+		  ZOrder		  -68
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[1]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector8"
+		  SID			  "5283"
+		  Ports			  [1, 1]
+		  Position		  [625, 96, 665, 134]
+		  ZOrder		  -69
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[2]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Selector
+		  Name			  "Selector9"
+		  SID			  "5284"
+		  Ports			  [1, 1]
+		  Position		  [625, 141, 665, 179]
+		  ZOrder		  -70
+		  ShowName		  off
+		  IndexMode		  "Zero-based"
+		  InputPortWidth	  "6"
+		  IndexOptions		  "Index vector (dialog)"
+		  Indices		  "[3]"
+		  OutputSizes		  "1"
+		}
+		Block {
+		  BlockType		  Switch
+		  Name			  "Switch"
+		  SID			  "6717"
+		  Position		  [1290, 730, 1340, 770]
+		  ZOrder		  12
+		  ShowName		  off
+		  AttributesFormatString  "Criteria=%<Criteria>"
+		  Criteria		  "u2 ~= 0"
+		  RndMeth		  "Zero"
+		  SaturateOnIntegerOverflow off
+		}
+		Block {
+		  BlockType		  UnitDelay
+		  Name			  "UnitDelay"
+		  SID			  "6721"
+		  Position		  [920, 978, 955, 1012]
+		  ZOrder		  16
+		  ShowName		  off
+		  AttributesFormatString  "IC = %<X0>"
+		  InitialCondition	  "false"
+		  InputProcessing	  "Elements as channels (sample based)"
+		  SampleTime		  "-1"
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "COMBI_SW_FAILURE"
+		  SID			  "5287"
+		  Position		  [1655, 743, 1675, 757]
+		  ZOrder		  -73
+		  BackgroundColor	  "orange"
+		  AttributesFormatString  "Type : %<OutDataTypeStr>\\nInit :%<InitialOutput>"
+		  IconDisplay		  "Port number"
+		  OutDataTypeStr	  "boolean"
+		}
+		Line {
+		  ZOrder		  8
+		  SrcBlock		  "LogicalOperator9"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator10"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  150
+		  SrcBlock		  "Selector6"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator9"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  154
+		  SrcBlock		  "Selector8"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator9"
+		  DstPort		  3
+		}
+		Line {
+		  ZOrder		  155
+		  SrcBlock		  "Selector9"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator9"
+		  DstPort		  4
+		}
+		Line {
+		  ZOrder		  156
+		  SrcBlock		  "Selector10"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator9"
+		  DstPort		  5
+		}
+		Line {
+		  ZOrder		  157
+		  SrcBlock		  "Selector11"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator9"
+		  DstPort		  6
+		}
+		Line {
+		  ZOrder		  153
+		  SrcBlock		  "Selector7"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator9"
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  19
+		  SrcBlock		  "From14"
+		  SrcPort		  1
+		  DstBlock		  "Selector11"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  20
+		  SrcBlock		  "From13"
+		  SrcPort		  1
+		  DstBlock		  "Selector10"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  21
+		  SrcBlock		  "From12"
+		  SrcPort		  1
+		  DstBlock		  "Selector9"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  22
+		  SrcBlock		  "From11"
+		  SrcPort		  1
+		  DstBlock		  "Selector8"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  23
+		  SrcBlock		  "From10"
+		  SrcPort		  1
+		  DstBlock		  "Selector7"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  24
+		  SrcBlock		  "From9"
+		  SrcPort		  1
+		  DstBlock		  "Selector6"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  26
+		  SrcBlock		  "LogicalOperator6"
+		  SrcPort		  1
+		  Points		  [70, 0]
+		  DstBlock		  "LogicalOperator7"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  27
+		  SrcBlock		  "RelationalOperator"
+		  SrcPort		  1
+		  Points		  [144, 0; 0, -165]
+		  DstBlock		  "LogicalOperator7"
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  28
+		  SrcBlock		  "From8"
+		  SrcPort		  1
+		  Points		  [340, 0]
+		  DstBlock		  "RelationalOperator"
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  29
+		  SrcBlock		  "Constant"
+		  SrcPort		  1
+		  Points		  [235, 0]
+		  DstBlock		  "RelationalOperator"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  69
+		  SrcBlock		  "From6"
+		  SrcPort		  1
+		  DstBlock		  "RSA_DetectIncrease_v01_04"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  66
+		  SrcBlock		  "DataTypeConversion"
+		  SrcPort		  1
+		  DstBlock		  "RSA_DetectChange_v01_04"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  39
+		  SrcBlock		  "From7"
+		  SrcPort		  1
+		  DstBlock		  "DataTypeConversion"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  74
+		  SrcBlock		  "Selector2"
+		  SrcPort		  1
+		  DstBlock		  "RSA_DetectChange_v01_3"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  77
+		  SrcBlock		  "Selector3"
+		  SrcPort		  1
+		  DstBlock		  "RSA_DetectChange_v01_4"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  78
+		  SrcBlock		  "Selector4"
+		  SrcPort		  1
+		  DstBlock		  "RSA_DetectChange_v01_5"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  81
+		  SrcBlock		  "Selector5"
+		  SrcPort		  1
+		  DstBlock		  "RSA_DetectChange_v01_6"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  72
+		  SrcBlock		  "Selector1"
+		  SrcPort		  1
+		  DstBlock		  "RSA_DetectChange_v01_2"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  71
+		  SrcBlock		  "Selector"
+		  SrcPort		  1
+		  DstBlock		  "RSA_DetectChange_v01_1"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  52
+		  SrcBlock		  "From5"
+		  SrcPort		  1
+		  DstBlock		  "Selector5"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  53
+		  SrcBlock		  "From4"
+		  SrcPort		  1
+		  DstBlock		  "Selector4"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  54
+		  SrcBlock		  "From3"
+		  SrcPort		  1
+		  DstBlock		  "Selector3"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  55
+		  SrcBlock		  "From2"
+		  SrcPort		  1
+		  DstBlock		  "Selector2"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  56
+		  SrcBlock		  "From1"
+		  SrcPort		  1
+		  DstBlock		  "Selector1"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  57
+		  SrcBlock		  "From"
+		  SrcPort		  1
+		  DstBlock		  "Selector"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  58
+		  SrcBlock		  "CSW_LINE_6"
+		  SrcPort		  1
+		  DstBlock		  "Goto5"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  59
+		  SrcBlock		  "CSW_LINE_5"
+		  SrcPort		  1
+		  DstBlock		  "Goto4"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  60
+		  SrcBlock		  "CSW_LINE_4"
+		  SrcPort		  1
+		  DstBlock		  "Goto3"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  61
+		  SrcBlock		  "CSW_LINE_3"
+		  SrcPort		  1
+		  DstBlock		  "Goto2"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  62
+		  SrcBlock		  "CSW_LINE_2"
+		  SrcPort		  1
+		  DstBlock		  "Goto1"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  63
+		  SrcBlock		  "CSW_LINE_1"
+		  SrcPort		  1
+		  DstBlock		  "Goto"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  64
+		  SrcBlock		  "RAZ_BY_DIAG"
+		  SrcPort		  1
+		  DstBlock		  "Goto9"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  65
+		  SrcBlock		  "VEHICLE_STATE"
+		  SrcPort		  1
+		  DstBlock		  "Goto12"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  140
+		  SrcBlock		  "LogicalOperator7"
+		  SrcPort		  1
+		  DstBlock		  "Switch"
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  141
+		  SrcBlock		  "LogicalOperator10"
+		  SrcPort		  1
+		  Points		  [215, 0; 0, 595]
+		  DstBlock		  "Switch"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  143
+		  SrcBlock		  "Switch"
+		  SrcPort		  1
+		  DstBlock		  "Goto6"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  144
+		  SrcBlock		  "From16"
+		  SrcPort		  1
+		  DstBlock		  "UnitDelay"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  145
+		  SrcBlock		  "From15"
+		  SrcPort		  1
+		  DstBlock		  "COMBI_SW_FAILURE"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  146
+		  SrcBlock		  "UnitDelay"
+		  SrcPort		  1
+		  Points		  [275, 0; 0, -230]
+		  DstBlock		  "Switch"
+		  DstPort		  3
+		}
+		Line {
+		  ZOrder		  158
+		  SrcBlock		  "RSA_DetectChange_v01_6"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator6"
+		  DstPort		  8
+		}
+		Line {
+		  ZOrder		  159
+		  SrcBlock		  "RSA_DetectChange_v01_5"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator6"
+		  DstPort		  7
+		}
+		Line {
+		  ZOrder		  160
+		  SrcBlock		  "RSA_DetectChange_v01_4"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator6"
+		  DstPort		  6
+		}
+		Line {
+		  ZOrder		  161
+		  SrcBlock		  "RSA_DetectChange_v01_3"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator6"
+		  DstPort		  5
+		}
+		Line {
+		  ZOrder		  162
+		  SrcBlock		  "RSA_DetectChange_v01_2"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator6"
+		  DstPort		  4
+		}
+		Line {
+		  ZOrder		  163
+		  SrcBlock		  "RSA_DetectChange_v01_1"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator6"
+		  DstPort		  3
+		}
+		Line {
+		  ZOrder		  164
+		  SrcBlock		  "RSA_DetectIncrease_v01_04"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator6"
+		  DstPort		  2
+		}
+		Line {
+		  ZOrder		  165
+		  SrcBlock		  "RSA_DetectChange_v01_04"
+		  SrcPort		  1
+		  DstBlock		  "LogicalOperator6"
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From"
+	      SID		      "5288"
+	      Position		      [500, 540, 580, 560]
+	      ZOrder		      -13
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_1"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From1"
+	      SID		      "5289"
+	      Position		      [500, 585, 580, 605]
+	      ZOrder		      -14
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_2"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From10"
+	      SID		      "5290"
+	      Position		      [320, 889, 555, 911]
+	      ZOrder		      -15
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "IN_DRIVING_CYCLE"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From11"
+	      SID		      "5291"
+	      Position		      [320, 1100, 545, 1120]
+	      ZOrder		      -16
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "COMBI_SW_FAILURE_DETECTED_TM"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From2"
+	      SID		      "5292"
+	      Position		      [500, 630, 580, 650]
+	      ZOrder		      -17
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_3"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From3"
+	      SID		      "5293"
+	      Position		      [500, 675, 580, 695]
+	      ZOrder		      -18
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_4"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From4"
+	      SID		      "5294"
+	      Position		      [500, 720, 580, 740]
+	      ZOrder		      -19
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_5"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From5"
+	      SID		      "5295"
+	      Position		      [500, 765, 580, 785]
+	      ZOrder		      -20
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_6"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From6"
+	      SID		      "5296"
+	      Position		      [500, 495, 590, 515]
+	      ZOrder		      -21
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "RAZ_BY_DIAG"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From7"
+	      SID		      "5297"
+	      Position		      [500, 450, 600, 470]
+	      ZOrder		      -22
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "VEHICLE_STATE"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From8"
+	      SID		      "5298"
+	      Position		      [320, 1030, 445, 1050]
+	      ZOrder		      -23
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "COMBI_SW_FAILURE"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From9"
+	      SID		      "5299"
+	      Position		      [320, 960, 410, 980]
+	      ZOrder		      -24
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "RAZ_BY_DIAG"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto"
+	      SID		      "5300"
+	      Position		      [335, 500, 415, 520]
+	      ZOrder		      -25
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_1"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto1"
+	      SID		      "5301"
+	      Position		      [335, 545, 415, 565]
+	      ZOrder		      -26
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_2"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto12"
+	      SID		      "5302"
+	      Position		      [315, 410, 415, 430]
+	      ZOrder		      -27
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "VEHICLE_STATE"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto13"
+	      SID		      "5303"
+	      Position		      [205, 815, 415, 835]
+	      ZOrder		      -28
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "IN_DRIVING_CYCLE"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto2"
+	      SID		      "5304"
+	      Position		      [335, 590, 415, 610]
+	      ZOrder		      -29
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_3"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto3"
+	      SID		      "5305"
+	      Position		      [335, 635, 415, 655]
+	      ZOrder		      -30
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_4"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto4"
+	      SID		      "5306"
+	      Position		      [335, 680, 415, 700]
+	      ZOrder		      -31
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_5"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto5"
+	      SID		      "5307"
+	      Position		      [335, 725, 415, 745]
+	      ZOrder		      -32
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "CSW_LINE_6"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto6"
+	      SID		      "7022"
+	      Position		      [1040, 610, 1165, 630]
+	      ZOrder		      46
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "COMBI_SW_FAILURE"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto7"
+	      SID		      "5309"
+	      Position		      [190, 770, 415, 790]
+	      ZOrder		      -34
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "COMBI_SW_FAILURE_DETECTED_TM"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto9"
+	      SID		      "5310"
+	      Position		      [325, 455, 415, 475]
+	      ZOrder		      -35
+	      BackgroundColor	      "green"
+	      ShowName		      off
+	      GotoTag		      "RAZ_BY_DIAG"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "COMBI_SW_FAILURE_TFAIL"
+	      SID		      "6752"
+	      Position		      [1210, 903, 1230, 917]
+	      ZOrder		      45
+	      BackgroundColor	      "orange"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>\\nInit :%<InitialOutput>"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "COMBI_SW_FAILURE_TCONF"
+	      SID		      "5313"
+	      Position		      [1210, 998, 1230, 1012]
+	      ZOrder		      -38
+	      BackgroundColor	      "orange"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>\\nInit :%<InitialOutput>"
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "CSW_IN_FAILURE_MODE"
+	      SID		      "5314"
+	      Position		      [1210, 1093, 1230, 1107]
+	      ZOrder		      -39
+	      BackgroundColor	      "orange"
+	      AttributesFormatString  "Type : %<OutDataTypeStr>\\nInit :%<InitialOutput>"
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	      OutDataTypeStr	      "boolean"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "IN_DRIVING_CYCLE"
+	      SrcPort		      1
+	      DstBlock		      "Goto13"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      73
+	      SrcBlock		      "CSW_FAILURE_DETECTION_FCT"
+	      SrcPort		      2
+	      DstBlock		      "COMBI_SW_FAILURE_TCONF"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "From11"
+	      SrcPort		      1
+	      DstBlock		      "CSW_FAILURE_DETECTION_FCT"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "From9"
+	      SrcPort		      1
+	      DstBlock		      "CSW_FAILURE_DETECTION_FCT"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "From10"
+	      SrcPort		      1
+	      DstBlock		      "CSW_FAILURE_DETECTION_FCT"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "From8"
+	      SrcPort		      1
+	      DstBlock		      "CSW_FAILURE_DETECTION_FCT"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "COMBI_SW_FAILURE_DETECTED_TM"
+	      SrcPort		      1
+	      DstBlock		      "Goto7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "From5"
+	      SrcPort		      1
+	      DstBlock		      "DET_CSW_FAILURE"
+	      DstPort		      8
+	    }
+	    Line {
+	      ZOrder		      13
+	      SrcBlock		      "From4"
+	      SrcPort		      1
+	      DstBlock		      "DET_CSW_FAILURE"
+	      DstPort		      7
+	    }
+	    Line {
+	      ZOrder		      14
+	      SrcBlock		      "From3"
+	      SrcPort		      1
+	      DstBlock		      "DET_CSW_FAILURE"
+	      DstPort		      6
+	    }
+	    Line {
+	      ZOrder		      15
+	      SrcBlock		      "From2"
+	      SrcPort		      1
+	      DstBlock		      "DET_CSW_FAILURE"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      16
+	      SrcBlock		      "From1"
+	      SrcPort		      1
+	      DstBlock		      "DET_CSW_FAILURE"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      17
+	      SrcBlock		      "From"
+	      SrcPort		      1
+	      DstBlock		      "DET_CSW_FAILURE"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      18
+	      SrcBlock		      "From6"
+	      SrcPort		      1
+	      DstBlock		      "DET_CSW_FAILURE"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      19
+	      SrcBlock		      "From7"
+	      SrcPort		      1
+	      DstBlock		      "DET_CSW_FAILURE"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      20
+	      SrcBlock		      "CSW_LINE_6"
+	      SrcPort		      1
+	      DstBlock		      "Goto5"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      21
+	      SrcBlock		      "CSW_LINE_5"
+	      SrcPort		      1
+	      DstBlock		      "Goto4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      22
+	      SrcBlock		      "CSW_LINE_4"
+	      SrcPort		      1
+	      DstBlock		      "Goto3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      23
+	      SrcBlock		      "CSW_LINE_3"
+	      SrcPort		      1
+	      DstBlock		      "Goto2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      24
+	      SrcBlock		      "CSW_LINE_2"
+	      SrcPort		      1
+	      DstBlock		      "Goto1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      25
+	      SrcBlock		      "CSW_LINE_1"
+	      SrcPort		      1
+	      DstBlock		      "Goto"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      26
+	      SrcBlock		      "RAZ_BY_DIAG"
+	      SrcPort		      1
+	      DstBlock		      "Goto9"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      27
+	      SrcBlock		      "VEHICLE_STATE"
+	      SrcPort		      1
+	      DstBlock		      "Goto12"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      68
+	      SrcBlock		      "CSW_FAILURE_DETECTION_FCT"
+	      SrcPort		      3
+	      DstBlock		      "CSW_IN_FAILURE_MODE"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      122
+	      SrcBlock		      "CSW_FAILURE_DETECTION_FCT"
+	      SrcPort		      1
+	      DstBlock		      "COMBI_SW_FAILURE_TFAIL"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      124
+	      SrcBlock		      "DET_CSW_FAILURE"
+	      SrcPort		      1
+	      DstBlock		      "Goto6"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conv_EventToBool"
+	  SID			  "7213"
+	  Ports			  [1, 1]
+	  Position		  [255, 997, 345, 1033]
+	  ZOrder		  130
+	  LibraryVersion	  "1.125"
+	  SourceBlock		  "library_BCM/Modeling/Conv_EventToBool"
+	  SourceType		  ""
+	  ContentPreviewEnabled	  off
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From1"
+	  SID			  "7221"
+	  Position		  [770, 1195, 995, 1215]
+	  ZOrder		  248
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "IN_DRIVING_CYCLE"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From12"
+	  SID			  "5385"
+	  Position		  [740, 925, 820, 945]
+	  ZOrder		  -23
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_1"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From13"
+	  SID			  "5386"
+	  Position		  [740, 965, 820, 985]
+	  ZOrder		  -24
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_2"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From14"
+	  SID			  "5387"
+	  Position		  [740, 1005, 820, 1025]
+	  ZOrder		  -25
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_3"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From15"
+	  SID			  "5388"
+	  Position		  [740, 1045, 820, 1065]
+	  ZOrder		  -26
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_4"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From16"
+	  SID			  "5389"
+	  Position		  [740, 1085, 820, 1105]
+	  ZOrder		  -27
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_5"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From17"
+	  SID			  "5390"
+	  Position		  [740, 1125, 820, 1145]
+	  ZOrder		  -28
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_6"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From18"
+	  SID			  "5391"
+	  Position		  [740, 845, 840, 865]
+	  ZOrder		  -29
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "VEHICLE_STATE"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From19"
+	  SID			  "5392"
+	  Position		  [740, 885, 830, 905]
+	  ZOrder		  -30
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "RAZ_BY_DIAG"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From20"
+	  SID			  "5394"
+	  Position		  [740, 1165, 965, 1185]
+	  ZOrder		  -32
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "COMBI_SW_FAILURE_DETECTED_TM"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From22"
+	  SID			  "6786"
+	  Position		  [1840, 890, 2050, 910]
+	  ZOrder		  125
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "COMBI_SW_FAILURE_TFAIL"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From23"
+	  SID			  "6787"
+	  Position		  [1840, 950, 2005, 970]
+	  ZOrder		  122
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "COMBI_SW_FAILURE_TCONF"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From24"
+	  SID			  "6788"
+	  Position		  [1840, 1135, 1985, 1155]
+	  ZOrder		  121
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_IN_FAILURE_MODE"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto"
+	  SID			  "5447"
+	  Position		  [580, 555, 660, 575]
+	  ZOrder		  -85
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_1"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto1"
+	  SID			  "5448"
+	  Position		  [580, 620, 660, 640]
+	  ZOrder		  -86
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_2"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto12"
+	  SID			  "5451"
+	  Position		  [560, 1185, 660, 1205]
+	  ZOrder		  -89
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "VEHICLE_STATE"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto16"
+	  SID			  "5455"
+	  Position		  [1580, 1025, 1745, 1045]
+	  ZOrder		  -93
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "COMBI_SW_FAILURE_TCONF"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto17"
+	  SID			  "5456"
+	  Position		  [1600, 1160, 1745, 1180]
+	  ZOrder		  -94
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_IN_FAILURE_MODE"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto18"
+	  SID			  "6754"
+	  Position		  [1600, 890, 1745, 910]
+	  ZOrder		  55
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "COMBI_SW_FAILURE_TFAIL"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto2"
+	  SID			  "5459"
+	  Position		  [580, 685, 660, 705]
+	  ZOrder		  -97
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_3"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto3"
+	  SID			  "5470"
+	  Position		  [580, 750, 660, 770]
+	  ZOrder		  -108
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_4"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto4"
+	  SID			  "5481"
+	  Position		  [580, 815, 660, 835]
+	  ZOrder		  -119
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_5"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto5"
+	  SID			  "5489"
+	  Position		  [580, 880, 660, 900]
+	  ZOrder		  -127
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "CSW_LINE_6"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto6"
+	  SID			  "7218"
+	  Position		  [445, 1267, 655, 1293]
+	  ZOrder		  245
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "COMBI_SW_FAILURE_DETECTED_TM"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto7"
+	  SID			  "7220"
+	  Position		  [490, 1362, 700, 1388]
+	  ZOrder		  247
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "IN_DRIVING_CYCLE"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto9"
+	  SID			  "5493"
+	  Position		  [570, 1005, 660, 1025]
+	  ZOrder		  -131
+	  BackgroundColor	  "green"
+	  ShowName		  off
+	  GotoTag		  "RAZ_BY_DIAG"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "COMBI_SW_FAILURE_TFAIL"
+	  SID			  "6806"
+	  Position		  [2305, 893, 2325, 907]
+	  ZOrder		  124
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>\\nInit :%<InitialOutput>"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "COMBI_SW_FAILURE_TCONF"
+	  SID			  "6807"
+	  Position		  [2305, 953, 2325, 967]
+	  ZOrder		  103
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>\\nInit :%<InitialOutput>"
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "CSW_IN_FAILURE_MODE"
+	  SID			  "6810"
+	  Position		  [2305, 1138, 2325, 1152]
+	  ZOrder		  100
+	  BackgroundColor	  "green"
+	  AttributesFormatString  "Type : %<OutDataTypeStr>\\nInit :%<InitialOutput>"
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	  OutDataTypeStr	  "boolean"
+	}
+	Line {
+	  ZOrder		  559
+	  SrcBlock		  "Conv_EventToBool"
+	  SrcPort		  1
+	  DstBlock		  "Goto9"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  80
+	  SrcBlock		  "From20"
+	  SrcPort		  1
+	  DstBlock		  "CSW_FAILURE_DETECTION"
+	  DstPort		  9
+	}
+	Line {
+	  ZOrder		  81
+	  SrcBlock		  "From17"
+	  SrcPort		  1
+	  DstBlock		  "CSW_FAILURE_DETECTION"
+	  DstPort		  8
+	}
+	Line {
+	  ZOrder		  82
+	  SrcBlock		  "From16"
+	  SrcPort		  1
+	  DstBlock		  "CSW_FAILURE_DETECTION"
+	  DstPort		  7
+	}
+	Line {
+	  ZOrder		  83
+	  SrcBlock		  "From15"
+	  SrcPort		  1
+	  DstBlock		  "CSW_FAILURE_DETECTION"
+	  DstPort		  6
+	}
+	Line {
+	  ZOrder		  84
+	  SrcBlock		  "From14"
+	  SrcPort		  1
+	  DstBlock		  "CSW_FAILURE_DETECTION"
+	  DstPort		  5
+	}
+	Line {
+	  ZOrder		  85
+	  SrcBlock		  "From13"
+	  SrcPort		  1
+	  DstBlock		  "CSW_FAILURE_DETECTION"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  86
+	  SrcBlock		  "From12"
+	  SrcPort		  1
+	  DstBlock		  "CSW_FAILURE_DETECTION"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  87
+	  SrcBlock		  "From19"
+	  SrcPort		  1
+	  DstBlock		  "CSW_FAILURE_DETECTION"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  88
+	  SrcBlock		  "From18"
+	  SrcPort		  1
+	  DstBlock		  "CSW_FAILURE_DETECTION"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  89
+	  SrcBlock		  "CSW_LINE_6"
+	  SrcPort		  1
+	  DstBlock		  "Goto5"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  90
+	  SrcBlock		  "CSW_LINE_5"
+	  SrcPort		  1
+	  DstBlock		  "Goto4"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  91
+	  SrcBlock		  "CSW_LINE_4"
+	  SrcPort		  1
+	  DstBlock		  "Goto3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  92
+	  SrcBlock		  "CSW_LINE_3"
+	  SrcPort		  1
+	  DstBlock		  "Goto2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  93
+	  SrcBlock		  "CSW_LINE_2"
+	  SrcPort		  1
+	  DstBlock		  "Goto1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  94
+	  SrcBlock		  "CSW_LINE_1"
+	  SrcPort		  1
+	  DstBlock		  "Goto"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  558
+	  SrcBlock		  "RAZ_BY_DIAG"
+	  SrcPort		  1
+	  DstBlock		  "Conv_EventToBool"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  106
+	  SrcBlock		  "VEHICLE_STATE"
+	  SrcPort		  1
+	  DstBlock		  "Goto12"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  242
+	  SrcBlock		  "CSW_FAILURE_DETECTION"
+	  SrcPort		  2
+	  DstBlock		  "Goto16"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  243
+	  SrcBlock		  "CSW_FAILURE_DETECTION"
+	  SrcPort		  3
+	  DstBlock		  "Goto17"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  262
+	  SrcBlock		  "CSW_FAILURE_DETECTION"
+	  SrcPort		  1
+	  DstBlock		  "Goto18"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  376
+	  SrcBlock		  "From22"
+	  SrcPort		  1
+	  DstBlock		  "COMBI_SW_FAILURE_TFAIL"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  377
+	  SrcBlock		  "From23"
+	  SrcPort		  1
+	  DstBlock		  "COMBI_SW_FAILURE_TCONF"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  379
+	  SrcBlock		  "From24"
+	  SrcPort		  1
+	  DstBlock		  "CSW_IN_FAILURE_MODE"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  684
+	  SrcBlock		  "From1"
+	  SrcPort		  1
+	  Points		  [38, 0; 0, 10]
+	  DstBlock		  "CSW_FAILURE_DETECTION"
+	  DstPort		  10
+	}
+	Line {
+	  Name			  "IN_DRIVING_CYCLE"
+	  ZOrder		  683
+	  Labels		  [0, 0]
+	  SrcBlock		  "IN_DRIVING_CYCLE"
+	  SrcPort		  1
+	  Points		  [141, 0; 0, 5]
+	  DstBlock		  "Goto7"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "COMBI_SW_FAILURE_DETECTED_TM"
+	  ZOrder		  685
+	  Labels		  [0, 0]
+	  SrcBlock		  "COMBI_SW_FAILURE_DETECTED_TM"
+	  SrcPort		  1
+	  Points		  [133, 0; 0, 5]
+	  DstBlock		  "Goto6"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "Out1"
+      SID		      "7232"
+      Position		      [705, 148, 735, 162]
+      ZOrder		      11
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "Out2"
+      SID		      "7233"
+      Position		      [705, 378, 735, 392]
+      ZOrder		      12
+      Port		      "2"
+      IconDisplay	      "Port number"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "Out3"
+      SID		      "7234"
+      Position		      [705, 608, 735, 622]
+      ZOrder		      13
+      Port		      "3"
+      IconDisplay	      "Port number"
+    }
+    Line {
+      ZOrder		      1
+      SrcBlock		      "In2"
+      SrcPort		      1
+      DstBlock		      "CombiSwitch"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      2
+      SrcBlock		      "In3"
+      SrcPort		      1
+      DstBlock		      "CombiSwitch"
+      DstPort		      3
+    }
+    Line {
+      ZOrder		      3
+      SrcBlock		      "In4"
+      SrcPort		      1
+      DstBlock		      "CombiSwitch"
+      DstPort		      4
+    }
+    Line {
+      ZOrder		      4
+      SrcBlock		      "In7"
+      SrcPort		      1
+      DstBlock		      "CombiSwitch"
+      DstPort		      7
+    }
+    Line {
+      ZOrder		      6
+      SrcBlock		      "In1"
+      SrcPort		      1
+      Points		      [75, 0; 0, -5]
+      DstBlock		      "CombiSwitch"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      7
+      SrcBlock		      "In5"
+      SrcPort		      1
+      Points		      [67, 0; 0, 5]
+      DstBlock		      "CombiSwitch"
+      DstPort		      5
+    }
+    Line {
+      ZOrder		      8
+      SrcBlock		      "In6"
+      SrcPort		      1
+      Points		      [80, 0; 0, 5]
+      DstBlock		      "CombiSwitch"
+      DstPort		      6
+    }
+    Line {
+      ZOrder		      9
+      SrcBlock		      "In8"
+      SrcPort		      1
+      Points		      [108, 0; 0, 5]
+      DstBlock		      "CombiSwitch"
+      DstPort		      8
+    }
+    Line {
+      ZOrder		      11
+      SrcBlock		      "CombiSwitch"
+      SrcPort		      1
+      DstBlock		      "Out1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      12
+      SrcBlock		      "CombiSwitch"
+      SrcPort		      2
+      DstBlock		      "Out2"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      13
+      SrcBlock		      "CombiSwitch"
+      SrcPort		      3
+      DstBlock		      "Out3"
+      DstPort		      1
+    }
+    Line {
+      Name		      "IN_DRIVING_CYCLE"
+      ZOrder		      14
+      Labels		      [0, 0]
+      SrcBlock		      "In9"
+      SrcPort		      1
+      DstBlock		      "CombiSwitch"
+      DstPort		      9
+    }
+    Line {
+      Name		      "COMBI_SW_FAILURE_DETECTED_TM"
+      ZOrder		      15
+      Labels		      [0, 0]
+      SrcBlock		      "In10"
+      SrcPort		      1
+      DstBlock		      "CombiSwitch"
+      DstPort		      10
+    }
+  }
+}
+#Finite State Machines
+#
+#   Stateflow 80000014
+#
+#
+Stateflow {
+  machine {
+    id			    1
+    name		    "BCM_C1A_CombiSwitch_9"
+    created		    "03-Jul-2013 10:52:03"
+    isLibrary		    0
+    sfVersion		    80000014
+    firstTarget		    39
+  }
+  chart {
+    id			    2
+    machine		    1
+    name		    "CombiSwitch/CSW_FAILURE_DETECTION/CSW_FAILURE_DETECTION_FCT"
+    windowPosition	    [-8 0 1612 876]
+    viewLimits		    [-74.529 1588.638 58.83 1047.064]
+    zoomFactor		    2.222
+    screen		    [1 1 1600 900 1.333333333333333]
+    treeNode		    [0 5 0 0]
+    viewObj		    2
+    subviewS {
+      zoomFactor	      2.27
+    }
+    ssIdHighWaterMark	    43
+    decomposition	    CLUSTER_CHART
+    chartFileNumber	    5
+    userSpecifiedStateTransitionExecutionOrder 1
+    disableImplicitCasting  1
+    firstData		    29
+    firstTransition	    36
+  }
+  state {
+    id			    3
+    labelString		    "NO_CSW_FAILURE_DETECTION_TEST"
+    position		    [446.6603 189.808 1233.0653 101.7733]
+    fontSize		    12
+    chart		    2
+    treeNode		    [5 0 0 4]
+    subviewer		    2
+    ssIdNumber		    9
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+  }
+  state {
+    id			    4
+    labelString		    "CSW_FAILURE_DETECTION_TEST"
+    position		    [446.3936 374.6713 1294.7768 849.6815]
+    fontSize		    12
+    chart		    2
+    treeNode		    [5 10 3 0]
+    subviewer		    2
+    ssIdNumber		    10
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+    firstTransition	    12
+    firstJunction	    11
+  }
+  state {
+    id			    5
+    labelString		    "CSW_FAILURE_DETECTION"
+    position		    [78.6363 145.8396 1696.9396 1103.2601]
+    fontSize		    12
+    chart		    2
+    treeNode		    [2 3 0 0]
+    subviewer		    2
+    ssIdNumber		    15
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+    firstTransition	    18
+    firstJunction	    17
+  }
+  state {
+    id			    6
+    labelString		    "NO_CSW_FAILURE\nentry:\nCOMBI_SW_FAILURE_TFAIL=false;\nCOMBI_SW_FAILURE_TCONF=false;\nCSW_IN_FAI"
+    "LURE_MODE=false;\n"
+    position		    [791.0683 489.5699 853.0601 85.1478]
+    fontSize		    12
+    chart		    2
+    treeNode		    [10 0 0 8]
+    subviewer		    2
+    ssIdNumber		    23
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+  }
+  state {
+    id			    7
+    labelString		    "WAITING_CSW_FAILURE_CONFIRMATION\nentry:\nCOMBI_SW_FAILURE_TFAIL=true;"
+    position		    [798.4422 870.2689 714.407 80.183]
+    fontSize		    12
+    chart		    2
+    treeNode		    [10 0 8 0]
+    subviewer		    2
+    ssIdNumber		    24
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+  }
+  state {
+    id			    8
+    labelString		    "WAITING_CSW_FAILURE_COME_BACK_IN_NORMAL"
+    position		    [1111.4671 685.1543 553.7242 85.5069]
+    fontSize		    12
+    chart		    2
+    treeNode		    [10 0 6 7]
+    subviewer		    2
+    ssIdNumber		    25
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+  }
+  state {
+    id			    9
+    labelString		    "CSW_FAILURE_CONFIRMATION\nentry:\nCOMBI_SW_FAILURE_TFAIL=true;\nCOMBI_SW_FAILURE_TCONF=true;\nCS"
+    "W_IN_FAILURE_MODE=true;"
+    position		    [725.5727 1092.3128 982.4096 87.8506]
+    fontSize		    12
+    chart		    2
+    treeNode		    [4 0 10 0]
+    subviewer		    2
+    ssIdNumber		    26
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+  }
+  state {
+    id			    10
+    labelString		    "NO_CSW_FAILURE_CONFIRMATION"
+    position		    [715.7398 412.6892 982.2944 586.6048]
+    fontSize		    12
+    chart		    2
+    treeNode		    [4 6 0 9]
+    subviewer		    2
+    ssIdNumber		    27
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+    firstTransition	    23
+  }
+  junction {
+    id			    11
+    position		    [589.8898 882.9075 7]
+    chart		    2
+    subviewer		    2
+    ssIdNumber		    38
+    type		    CONNECTIVE_JUNCTION
+    linkNode		    [4 0 0]
+  }
+  transition {
+    id			    12
+    labelPosition	    [629.973 638.933 10.21 15.293]
+    fontSize		    12
+    src {
+      id		      11
+      intersection	      [1 0.4317 -0.902 0 592.9116 876.5933 0 0]
+    }
+    dst {
+      id		      10
+      intersection	      [4 -1 0 0.735 715.7398 568.1105 0 0]
+    }
+    midPoint		    [627.9459 676.5563]
+    chart		    2
+    dataLimits		    [592.912 715.74 565.711 876.593]
+    stampAngle		    1.1244
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      mode		      MIRROR_SLIDE
+      sticky		      BOTH_STICK
+      arcL		      314.797
+    }
+    executionOrder	    2
+    ssIdNumber		    39
+    linkNode		    [4 0 13]
+  }
+  transition {
+    id			    13
+    labelString		    "[!COMBI_SW_FAILURE]"
+    labelPosition	    [1550.126 914.728 137.836 15.293]
+    fontSize		    12
+    src {
+      id		      9
+      intersection	      [1 0 -1 0.8391 1549.8788 1092.3128 0 162.5423]
+    }
+    dst {
+      id		      8
+      intersection	      [3 -0 1 0.2082 1549.8788 770.6612 0 -162.5423]
+    }
+    midPoint		    [1549.8788 928.7553]
+    chart		    2
+    dataLimits		    [1547.479 1552.279 770.661 1092.313]
+    stampAngle		    NaN
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    34
+    linkNode		    [4 12 14]
+  }
+  transition {
+    id			    14
+    labelPosition	    [558.89 861.089 10.21 15.293]
+    fontSize		    12
+    src {
+      intersection	      [0 1 0 0 474.1807 882.9075 0 -35.8714]
+    }
+    dst {
+      id		      11
+      intersection	      [4 -1 -0 0 582.8898 882.9075 0 35.8714]
+    }
+    midPoint		    [526.6378 882.9075]
+    chart		    2
+    dataLimits		    [474.181 582.89 880.508 885.308]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    28
+    linkNode		    [4 13 15]
+  }
+  transition {
+    id			    15
+    labelString		    "[COMBI_SW_FAILURE_TCONF==true ...\n&& COMBI_SW_FAILURE==true]"
+    labelPosition	    [652.82 1026.649 224.621 27.187]
+    fontSize		    12
+    src {
+      id		      11
+      intersection	      [3 0.4281 0.9037 0 592.8864 889.2336 0 0]
+    }
+    dst {
+      id		      9
+      intersection	      [4 -1 0 0.4783 725.5727 1138.1483 0 0]
+    }
+    midPoint		    [636.9809 1052.2244]
+    chart		    2
+    dataLimits		    [592.886 725.573 889.234 1140.548]
+    stampAngle		    -0.1326
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      mode		      MIRROR_SLIDE
+      sticky		      BOTH_STICK
+      arcL		      -45.8355
+      arcClockDir	      COUNTER_CLOCKWISE
+    }
+    executionOrder	    1
+    ssIdNumber		    40
+    linkNode		    [4 14 16]
+  }
+  transition {
+    id			    16
+    labelString		    "after(COMBI_SW_FAILURE_DETECTED_TM,tick)"
+    labelPosition	    [1095.493 1022.794 301.197 15.293]
+    fontSize		    12
+    src {
+      id		      7
+      intersection	      [3 -0 1 0.5921 1089.8638 950.4519 0 20.9629]
+    }
+    dst {
+      id		      9
+      intersection	      [1 0 -1 0.3708 1089.8638 1092.3128 0 -20.9629]
+    }
+    midPoint		    [1089.8638 1020.2056]
+    chart		    2
+    dataLimits		    [1087.464 1092.264 950.452 1092.313]
+    stampAngle		    NaN
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    3
+    ssIdNumber		    35
+    linkNode		    [4 15 0]
+  }
+  junction {
+    id			    17
+    position		    [275.5549 374.1399 7]
+    chart		    2
+    subviewer		    2
+    ssIdNumber		    18
+    type		    CONNECTIVE_JUNCTION
+    linkNode		    [5 0 0]
+  }
+  transition {
+    id			    18
+    labelPosition	    [344.558 265.669 10.21 15.293]
+    fontSize		    12
+    src {
+      id		      17
+      intersection	      [1 -0.0093 -1 0 275.4897 367.1402 0 0]
+    }
+    dst {
+      id		      3
+      intersection	      [4 -1 0 0.4299 446.6603 247.8313 0 0]
+    }
+    midPoint		    [334.997 278.6989]
+    chart		    2
+    dataLimits		    [275.49 446.66 245.431 367.14]
+    stampAngle		    -5.1526
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      mode		      MIRROR_SLIDE
+      sticky		      BOTH_STICK
+      arcL		      43.75
+    }
+    executionOrder	    2
+    ssIdNumber		    19
+    linkNode		    [5 0 19]
+  }
+  transition {
+    id			    19
+    labelString		    "[IN_DRIVING_CYCLE]"
+    labelPosition	    [620.788 315.198 229.726 15.293]
+    fontSize		    12
+    src {
+      id		      3
+      intersection	      [3 -0 1 0.8627 615.9602 291.5813 0 447.2119]
+    }
+    dst {
+      id		      4
+      intersection	      [1 0 -1 0.131 615.9602 374.6713 0 -447.2119]
+    }
+    midPoint		    [615.9811 330.6719]
+    chart		    2
+    dataLimits		    [613.56 618.36 291.581 374.671]
+    stampAngle		    NaN
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    13
+    linkNode		    [5 18 20]
+  }
+  transition {
+    id			    20
+    labelString		    "[!IN_DRIVING_CYCLE]"
+    labelPosition	    [1356.628 317.499 234.831 15.293]
+    fontSize		    12
+    src {
+      id		      4
+      intersection	      [1 0 -1 0.6974 1349.3874 374.6713 0 286.18]
+    }
+    dst {
+      id		      3
+      intersection	      [3 -0 1 0.2679 1349.3874 291.5813 0 -286.18]
+    }
+    midPoint		    [1349.373 335.5807]
+    chart		    2
+    dataLimits		    [1346.987 1351.787 291.581 374.671]
+    stampAngle		    NaN
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    14
+    linkNode		    [5 19 21]
+  }
+  transition {
+    id			    21
+    labelPosition	    [231.902 346.801 10.21 15.293]
+    fontSize		    12
+    src {
+      intersection	      [0 1 0 0 164.4885 374.1399 0 0]
+    }
+    dst {
+      id		      17
+      intersection	      [4 -1 -0 0 268.5549 374.1399 0 0]
+    }
+    midPoint		    [214.5233 374.1399]
+    chart		    2
+    dataLimits		    [164.488 268.555 371.74 376.54]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    17
+    linkNode		    [5 20 22]
+  }
+  transition {
+    id			    22
+    labelString		    "[IN_DRIVING_CYCLE]"
+    labelPosition	    [231.704 736.785 229.726 15.293]
+    fontSize		    12
+    src {
+      id		      17
+      intersection	      [3 -0.0388 0.9992 0 275.2833 381.1346 0 0]
+    }
+    dst {
+      id		      4
+      intersection	      [4 -1 0 0.5561 446.3936 751.8838 0 0]
+    }
+    midPoint		    [307.1033 627.2844]
+    chart		    2
+    dataLimits		    [273.38 446.394 381.135 754.284]
+    stampAngle		    -1.6065
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      mode		      MIRROR_SLIDE
+      sticky		      BOTH_STICK
+      arcL		      -377.2125
+      arcClockDir	      COUNTER_CLOCKWISE
+      midPointSticky	      1
+    }
+    executionOrder	    1
+    ssIdNumber		    21
+    linkNode		    [5 21 0]
+  }
+  transition {
+    id			    23
+    labelPosition	    [1197.219 457.351 10.21 15.293]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 1215.6181 459.5699 0 0]
+    }
+    dst {
+      id		      6
+      intersection	      [1 0 -1 0.4977 1215.6181 489.5699 0 0]
+    }
+    midPoint		    [1215.6181 470.9614]
+    chart		    2
+    dataLimits		    [1213.218 1218.018 459.57 489.57]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    29
+    linkNode		    [10 0 24]
+  }
+  transition {
+    id			    24
+    labelString		    "[COMBI_SW_FAILURE]"
+    labelPosition	    [852.962 720.038 132.731 15.293]
+    fontSize		    12
+    src {
+      id		      6
+      intersection	      [3 -0 1 0.9386 843.429 574.7177 0 286.5508]
+    }
+    dst {
+      id		      7
+      intersection	      [1 0 -1 0.063 843.429 870.2689 0 -286.5508]
+    }
+    midPoint		    [843.429 724.6576]
+    chart		    2
+    dataLimits		    [841.029 845.829 574.718 870.269]
+    stampAngle		    NaN
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    30
+    linkNode		    [10 23 25]
+  }
+  transition {
+    id			    25
+    labelString		    "[!COMBI_SW_FAILURE ...\n&& !COMBI_SW_FAILURE_TCONF]"
+    labelPosition	    [1033.112 603.476 202.499 27.187]
+    fontSize		    12
+    src {
+      id		      7
+      intersection	      [1 0 -1 0.325 1030.6056 870.2689 0 -99.3742]
+    }
+    dst {
+      id		      6
+      intersection	      [3 -0 1 0.7192 1030.6056 574.7177 0 99.3742]
+    }
+    midPoint		    [1030.6056 720.329]
+    chart		    2
+    dataLimits		    [1028.206 1033.006 574.718 870.269]
+    stampAngle		    NaN
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    31
+    linkNode		    [10 24 26]
+  }
+  transition {
+    id			    26
+    labelString		    "after(COMBI_SW_FAILURE_DETECTED_TM,tick)"
+    labelPosition	    [1336.001 619.702 301.197 15.293]
+    fontSize		    12
+    src {
+      id		      8
+      intersection	      [1 -0 -1 0.3953 1330.3717 685.1543 0 165.4051]
+    }
+    dst {
+      id		      6
+      intersection	      [3 0 1 0.3678 1330.3717 574.7177 0 -177.2926]
+    }
+    midPoint		    [1330.3717 631.7959]
+    chart		    2
+    dataLimits		    [1327.972 1332.772 574.718 685.154]
+    stampAngle		    NaN
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    2
+    ssIdNumber		    36
+    linkNode		    [10 25 27]
+  }
+  transition {
+    id			    27
+    labelString		    "[COMBI_SW_FAILURE]"
+    labelPosition	    [1165.98 799.5 132.731 15.293]
+    fontSize		    12
+    src {
+      id		      8
+      intersection	      [3 0 1 0.9089 1161.9128 770.6612 0 -31.6494]
+    }
+    dst {
+      id		      7
+      intersection	      [1 0 -1 0.5088 1161.9128 870.2689 0 31.6494]
+    }
+    midPoint		    [1161.9128 818.3697]
+    chart		    2
+    dataLimits		    [1159.513 1164.313 770.661 870.269]
+    stampAngle		    NaN
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    33
+    linkNode		    [10 26 28]
+  }
+  transition {
+    id			    28
+    labelString		    "[!COMBI_SW_FAILURE ...\n&& COMBI_SW_FAILURE_TCONF]"
+    labelPosition	    [1342.807 785.204 197.394 27.187]
+    fontSize		    12
+    src {
+      id		      7
+      intersection	      [1 0 -1 0.7541 1337.1782 870.2689 0 206.9148]
+    }
+    dst {
+      id		      8
+      intersection	      [3 0 1 0.5924 1337.1782 770.6612 0 -206.9148]
+    }
+    midPoint		    [1337.1782 822.5603]
+    chart		    2
+    dataLimits		    [1334.778 1339.578 770.661 870.269]
+    stampAngle		    NaN
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    2
+    ssIdNumber		    32
+    linkNode		    [10 27 0]
+  }
+  data {
+    id			    29
+    ssIdNumber		    42
+    name		    "COMBI_SW_FAILURE_TFAIL"
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      type {
+	primitive		SF_BOOLEAN_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      frame		      SF_FRAME_NO
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "boolean"
+    linkNode		    [2 0 30]
+  }
+  data {
+    id			    30
+    ssIdNumber		    1
+    name		    "IN_DRIVING_CYCLE"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      type {
+	primitive		SF_BOOLEAN_TYPE
+	enumType		"TYP_VEHICLE_STATE"
+	isSigned		1
+	wordLength		"16"
+      }
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "boolean"
+    linkNode		    [2 29 31]
+  }
+  data {
+    id			    31
+    ssIdNumber		    2
+    name		    "RAZ_BY_DIAG"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      type {
+	primitive		SF_BOOLEAN_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "boolean"
+    linkNode		    [2 30 32]
+  }
+  data {
+    id			    32
+    ssIdNumber		    3
+    name		    "COMBI_SW_FAILURE"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      type {
+	primitive		SF_BOOLEAN_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "boolean"
+    linkNode		    [2 31 33]
+  }
+  data {
+    id			    33
+    ssIdNumber		    4
+    name		    "COMBI_SW_FAILURE_DETECTED_TM"
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      type {
+	primitive		SF_UINT16_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "uint16"
+    linkNode		    [2 32 34]
+  }
+  data {
+    id			    34
+    ssIdNumber		    7
+    name		    "COMBI_SW_FAILURE_TCONF"
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      type {
+	primitive		SF_BOOLEAN_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      frame		      SF_FRAME_NO
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "boolean"
+    linkNode		    [2 33 35]
+  }
+  data {
+    id			    35
+    ssIdNumber		    8
+    name		    "CSW_IN_FAILURE_MODE"
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      type {
+	primitive		SF_BOOLEAN_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      frame		      SF_FRAME_NO
+      unit {
+	name			"inherit"
+      }
+    }
+    dataType		    "boolean"
+    linkNode		    [2 34 0]
+  }
+  transition {
+    id			    36
+    labelString		    "{\nCOMBI_SW_FAILURE_TFAIL=false;\nCOMBI_SW_FAILURE_TCONF=false;\nCSW_IN_FAILURE_MODE=false;\n}"
+    labelPosition	    [928.771 50.266 207.25 77]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 925.9182 53.6369 0 -20.51]
+    }
+    dst {
+      id		      5
+      intersection	      [1 0 -1 0.4993 925.9182 145.8396 0 20.51]
+    }
+    midPoint		    [925.9182 97.4819]
+    chart		    2
+    dataLimits		    [923.518 928.318 53.637 145.84]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    11
+    linkNode		    [2 0 37]
+  }
+  transition {
+    id			    37
+    labelString		    "[hasChangedFrom(RAZ_BY_DIAG,true)]\n{\nCOMBI_SW_FAILURE_TFAIL=false;\nCOMBI_SW_FAILURE_TCONF=fal"
+    "se;\nCSW_IN_FAILURE_MODE=false;\n}"
+    labelPosition	    [486.407 14.485 219.25 92]
+    fontSize		    12
+    src {
+      id		      5
+      intersection	      [1 0 -1 0.3735 712.4897 145.8396 0 0]
+    }
+    dst {
+      id		      5
+      intersection	      [1 0 -1 0.2392 484.4897 145.8396 0 0]
+    }
+    midPoint		    [598.4897 97.8396]
+    chart		    2
+    dataLimits		    [482.09 712.49 97.592 145.84]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      mode		      MIRROR_SLIDE
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    43
+    linkNode		    [2 36 0]
+  }
+  instance {
+    id			    38
+    machine		    1
+    name		    "CombiSwitch/CSW_FAILURE_DETECTION/CSW_FAILURE_DETECTION_FCT"
+    chart		    2
+  }
+  target {
+    id			    39
+    machine		    1
+    name		    "sfun"
+    description		    "Default Simulink S-Function Target."
+    linkNode		    [1 0 40]
+  }
+  target {
+    id			    40
+    machine		    1
+    name		    "rtw"
+    linkNode		    [1 39 0]
+  }
+}
